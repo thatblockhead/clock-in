@@ -2,7 +2,15 @@
 
 import { useEffect, useState } from "react";
 
+type Session = {
+  startTime: number;
+  endTime: number;
+  breaks: number[];
+  totalTime: number;
+};
+
 export default function Timer() {
+  const [sessions, setSessions] = useState<Session[]>([]);
   const [time, setTime] = useState<number>(0);
   const [isActive, setIsActive] = useState<boolean>(false);
 

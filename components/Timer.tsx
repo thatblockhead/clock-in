@@ -14,14 +14,23 @@ export default function Timer() {
   const [time, setTime] = useState<number>(0);
   const [isActive, setIsActive] = useState<boolean>(false);
 
-  const toggleTimer = () => {
-    setIsActive(!isActive);
-  };
-
-  const resetTimer = () => {
-    setIsActive(false);
+  function clockIn() {
+    const startTime = Date.now();
+    setSessions([...sessions, { startTime, endTime: 0, breaks: [], totalTime: 0 }]);
     setTime(0);
-  };
+    setIsActive(true);
+  }
+
+  function clockOut() {
+    const endTime = Date.now();
+    const newSession = { ...sessions[sessions.length - 1], endTime, totalTime: time };
+    setSessions([...sessions.slice(0, -1), newSession]);
+    setTime(0);
+    setIsActive(false);
+
+    // Update local storage with complete session object
+    localStorage.setItem("sessions", JSON.stringify(sessions));
+  }
 
   // Run or stop the clock
   useEffect(() => {
@@ -43,10 +52,11 @@ export default function Timer() {
   return (
     <div>
       <h1>{time}s</h1>
-      <button onClick={toggleTimer}>
-        {isActive ? 'Pause' : 'Clock In'}
-      </button>
-      <button onClick={resetTimer}>Clock Out</button>
+      {isActive ? (
+        <button onClick={() => clockOut()}>Clock Out</button>
+      ) : (
+        <button onClick={() => clockIn()}>Clock In</button>
+      )}
     </div>
   );
 

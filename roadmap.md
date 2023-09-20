@@ -1,18 +1,18 @@
 ### Milestone 1: Project Setup
-- [ ] Initialize a new Next.js project
-- [ ] Install necessary packages (e.g., Tailwind CSS)
-- [ ] Commit: Initial project setup
+- [x] Initialize a new Next.js project
+- [x] Install necessary packages (e.g., Tailwind CSS)
+- [x] Commit: Initial project setup
 
 ### Milestone 2: Timer Functionality
-- [ ] Create a Timer component
-- [ ] Display the Timer component on the homepage
+- [x] Create a Timer component
+- [x] Display the Timer component on the homepage
 - [ ] Commit: Basic Timer component
 
 ### Milestone 3: Clock-in, Clock-out, and Pause Features
-- [ ] Add Clock-in and Clock-out buttons
-  - [ ] Start and stop the timer
-- [ ] Add Pause button
-  - [ ] Pause and resume the timer
+- [x] Add Clock-in and Clock-out buttons
+  - [x] Start and stop the timer
+- [x] Add Pause button
+  - [x] Pause and resume the timer
 - [ ] Implement logic to record time intervals
 - [ ] Commit: Clock-in, Clock-out, and Pause features
 

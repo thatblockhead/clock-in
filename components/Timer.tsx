@@ -5,14 +5,20 @@ import { useEffect, useState } from "react";
 type Session = {
   startTime: number;
   endTime: number;
-  breaks: number[];
+  breaks: Break[];
   totalTime: number;
+};
+
+type Break = {
+  startTime: number;
+  endTime: number;
 };
 
 export default function Timer() {
   const [sessions, setSessions] = useState<Session[]>([]);
   const [time, setTime] = useState<number>(0);
   const [isActive, setIsActive] = useState<boolean>(false);
+  const [currentBreak, setCurrentBreak] = useState<Break | null>(null);
 
   function clockIn() {
     const startTime = Date.now();
@@ -27,9 +33,28 @@ export default function Timer() {
     setSessions([...sessions.slice(0, -1), newSession]);
     setTime(0);
     setIsActive(false);
+    setCurrentBreak(null);
 
     // Update local storage with complete session object
     localStorage.setItem("sessions", JSON.stringify(sessions));
+  }
+
+  function pause() {
+    const startTime = Date.now();
+    setCurrentBreak({ startTime, endTime: 0 });
+    setIsActive(false);
+  }
+
+  function unpause() {
+    const endTime = Date.now();
+    if (currentBreak) {
+      const newBreak = { ...currentBreak, endTime };
+      const currentSession = { ...sessions[sessions.length - 1] };
+      currentSession.breaks.push(newBreak);
+      setSessions([...sessions.slice(0, -1), currentSession]);
+      setCurrentBreak(null);
+      setIsActive(true);
+    }
   }
 
   // Run or stop the clock
@@ -53,11 +78,32 @@ export default function Timer() {
     <div>
       <h1>{time}s</h1>
       {isActive ? (
-        <button onClick={() => clockOut()}>Clock Out</button>
+        <>
+          <div>
+            <button onClick={() => pause()}>Pause</button>
+          </div>
+          <div>
+            <button onClick={() => clockOut()}>Clock Out</button>
+          </div>
+        </>
       ) : (
-        <button onClick={() => clockIn()}>Clock In</button>
+        <>
+          {currentBreak || (sessions.length && sessions[sessions.length - 1].endTime === 0) ? (
+            <>
+              <div>
+                <button onClick={() => unpause()}>Unpause</button>
+              </div>
+              <div>
+                <button onClick={() => clockOut()}>Clock Out</button>
+              </div>
+            </>
+          ) : (
+            <div>
+              <button onClick={() => clockIn()}>Clock In</button>
+            </div>
+          )}
+        </>
       )}
     </div>
   );
-
 }

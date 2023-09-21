@@ -6,15 +6,15 @@
 ### Milestone 2: Timer Functionality
 - [x] Create a Timer component
 - [x] Display the Timer component on the homepage
-- [ ] Commit: Basic Timer component
+- [x] Commit: Basic Timer component
 
 ### Milestone 3: Clock-in, Clock-out, and Pause Features
 - [x] Add Clock-in and Clock-out buttons
   - [x] Start and stop the timer
 - [x] Add Pause button
   - [x] Pause and resume the timer
-- [ ] Implement logic to record time intervals
-- [ ] Commit: Clock-in, Clock-out, and Pause features
+- [x] Implement logic to record time intervals
+- [x] Commit: Clock-in, Clock-out, and Pause features
 
 ### Milestone 4: Data Storage and State Management
 - [ ] Implement local storage to persist timer data

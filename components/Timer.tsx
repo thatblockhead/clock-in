@@ -30,13 +30,13 @@ export default function Timer() {
   function clockOut() {
     const endTime = Date.now();
     const newSession = { ...sessions[sessions.length - 1], endTime, totalTime: time };
-    setSessions([...sessions.slice(0, -1), newSession]);
+    const updatedSessions = [...sessions.slice(0, -1), newSession];
+
+    setSessions(updatedSessions);
+    saveSessionsToLocalStorage(updatedSessions);
     setTime(0);
     setIsActive(false);
     setCurrentBreak(null);
-
-    // Update local storage with complete session object
-    localStorage.setItem("sessions", JSON.stringify(sessions));
   }
 
   function pause() {
@@ -56,6 +56,23 @@ export default function Timer() {
       setIsActive(true);
     }
   }
+
+  function saveSessionsToLocalStorage(sessions: Session[]) {
+    localStorage.setItem("sessions", JSON.stringify(sessions));
+  }
+  
+  function loadSessionsFromLocalStorage(): Session[] | null {
+    const savedSessions = localStorage.getItem('sessions');
+    return savedSessions ? JSON.parse(savedSessions) : null;
+  }
+  
+  // Load sessions from local storage when component mounts
+  useEffect(() => {
+    const loadedSessions = loadSessionsFromLocalStorage();
+    if (loadedSessions) {
+      setSessions(loadedSessions);
+    }
+  }, []);
 
   // Run or stop the clock
   useEffect(() => {

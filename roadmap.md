@@ -17,9 +17,9 @@
 - [x] Commit: Clock-in, Clock-out, and Pause features
 
 ### Milestone 4: Data Storage and State Management
-- [ ] Implement local storage to persist timer data
-- [ ] Set up state management for user data
-- [ ] Commit: Data storage and state management
+- [x] Implement local storage to persist timer data
+- [x] Set up state management for user data
+- [x] Commit: Data storage and state management
 
 ### Milestone 5: Job Title and Wage Specification
 - [ ] Create a component for specifying job title
@@ -29,7 +29,7 @@
 - [ ] Commit: Job title and wage specification feature
 
 ### Milestone 6: Data File Creation and Integration
-- [ ] Create a JSON file with job titles and average hourly wages
+- [x] Create a JSON file with job titles and average hourly wages
 - [ ] Load this data into the app
 - [ ] Commit: Data file creation and integration
 

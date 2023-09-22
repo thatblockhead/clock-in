@@ -1,0 +1,4550 @@
+[
+    {
+        "OCC_TITLE": "All Occupation",
+        "H_MEDIAN": 22.26
+    },
+    {
+        "OCC_TITLE": "Management Occupation",
+        "H_MEDIAN": 51.62
+    },
+    {
+        "OCC_TITLE": "Top Executive",
+        "H_MEDIAN": 48.02
+    },
+    {
+        "OCC_TITLE": "Chief Executive",
+        "H_MEDIAN": 91.12
+    },
+    {
+        "OCC_TITLE": "General and Operations Manager",
+        "H_MEDIAN": 47.16
+    },
+    {
+        "OCC_TITLE": "Legislator",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Advertising, Marketing, Promotions, Public Relations, and Sales Manager",
+        "H_MEDIAN": 63.86
+    },
+    {
+        "OCC_TITLE": "Advertising and Promotions Manager",
+        "H_MEDIAN": 61.46
+    },
+    {
+        "OCC_TITLE": "Marketing and Sales Manager",
+        "H_MEDIAN": 64.37
+    },
+    {
+        "OCC_TITLE": "Marketing Manager",
+        "H_MEDIAN": 67.33
+    },
+    {
+        "OCC_TITLE": "Sales Manager",
+        "H_MEDIAN": 62.79
+    },
+    {
+        "OCC_TITLE": "Public Relations and Fundraising Manager",
+        "H_MEDIAN": 60.4
+    },
+    {
+        "OCC_TITLE": "Public Relations Manager",
+        "H_MEDIAN": 62.23
+    },
+    {
+        "OCC_TITLE": "Fundraising Manager",
+        "H_MEDIAN": 51.63
+    },
+    {
+        "OCC_TITLE": "Operations Specialties Manager",
+        "H_MEDIAN": 62.96
+    },
+    {
+        "OCC_TITLE": "Administrative Services and Facilities Manager",
+        "H_MEDIAN": 48.98
+    },
+    {
+        "OCC_TITLE": "Administrative Services Manager",
+        "H_MEDIAN": 49.68
+    },
+    {
+        "OCC_TITLE": "Facilities Manager",
+        "H_MEDIAN": 47.61
+    },
+    {
+        "OCC_TITLE": "Computer and Information Systems Manager",
+        "H_MEDIAN": 78.88
+    },
+    {
+        "OCC_TITLE": "Financial Manager",
+        "H_MEDIAN": 67.21
+    },
+    {
+        "OCC_TITLE": "Industrial Production Manager",
+        "H_MEDIAN": 51.71
+    },
+    {
+        "OCC_TITLE": "Purchasing Manager",
+        "H_MEDIAN": 63.15
+    },
+    {
+        "OCC_TITLE": "Transportation, Storage, and Distribution Manager",
+        "H_MEDIAN": 47.39
+    },
+    {
+        "OCC_TITLE": "Compensation and Benefits Manager",
+        "H_MEDIAN": 63.11
+    },
+    {
+        "OCC_TITLE": "Human Resources Manager",
+        "H_MEDIAN": 62.5
+    },
+    {
+        "OCC_TITLE": "Training and Development Manager",
+        "H_MEDIAN": 57.69
+    },
+    {
+        "OCC_TITLE": "Other Management Occupation",
+        "H_MEDIAN": 47.95
+    },
+    {
+        "OCC_TITLE": "Farmers, Ranchers, and Other Agricultural Manager",
+        "H_MEDIAN": 36.42
+    },
+    {
+        "OCC_TITLE": "Construction Manager",
+        "H_MEDIAN": 48.79
+    },
+    {
+        "OCC_TITLE": "Education and Childcare Administrator",
+        "H_MEDIAN": 47.08
+    },
+    {
+        "OCC_TITLE": "Education and Childcare Administrators, Preschool and Daycare",
+        "H_MEDIAN": 23.89
+    },
+    {
+        "OCC_TITLE": "Education Administrators, Kindergarten through Secondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Education Administrators, Postsecondary",
+        "H_MEDIAN": 48.05
+    },
+    {
+        "OCC_TITLE": "Education Administrators, All Other",
+        "H_MEDIAN": 42.85
+    },
+    {
+        "OCC_TITLE": "Architectural and Engineering Manager",
+        "H_MEDIAN": 76.88
+    },
+    {
+        "OCC_TITLE": "Food Service Manager",
+        "H_MEDIAN": 29.48
+    },
+    {
+        "OCC_TITLE": "Entertainment and Recreation Manager",
+        "H_MEDIAN": 34.34
+    },
+    {
+        "OCC_TITLE": "Gambling Manager",
+        "H_MEDIAN": 38.8
+    },
+    {
+        "OCC_TITLE": "Entertainment and Recreation Managers, Except Gambling",
+        "H_MEDIAN": 32.32
+    },
+    {
+        "OCC_TITLE": "Lodging Manager",
+        "H_MEDIAN": 29.76
+    },
+    {
+        "OCC_TITLE": "Medical and Health Services Manager",
+        "H_MEDIAN": 50.4
+    },
+    {
+        "OCC_TITLE": "Natural Sciences Manager",
+        "H_MEDIAN": 69.44
+    },
+    {
+        "OCC_TITLE": "Postmasters and Mail Superintendent",
+        "H_MEDIAN": 39.79
+    },
+    {
+        "OCC_TITLE": "Property, Real Estate, and Community Association Manager",
+        "H_MEDIAN": 29.17
+    },
+    {
+        "OCC_TITLE": "Social and Community Service Manager",
+        "H_MEDIAN": 35.69
+    },
+    {
+        "OCC_TITLE": "Emergency Management Director",
+        "H_MEDIAN": 38.07
+    },
+    {
+        "OCC_TITLE": "Personal Service Manager",
+        "H_MEDIAN": 29.86
+    },
+    {
+        "OCC_TITLE": "Funeral Home Manager",
+        "H_MEDIAN": 34.67
+    },
+    {
+        "OCC_TITLE": "Personal Service Managers, All Other",
+        "H_MEDIAN": 26.97
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Manager",
+        "H_MEDIAN": 61.84
+    },
+    {
+        "OCC_TITLE": "Managers, All Other",
+        "H_MEDIAN": 61.84
+    },
+    {
+        "OCC_TITLE": "Business and Financial Operations Occupation",
+        "H_MEDIAN": 36.95
+    },
+    {
+        "OCC_TITLE": "Business Operations Specialist",
+        "H_MEDIAN": 36.56
+    },
+    {
+        "OCC_TITLE": "Agents and Business Managers of Artists, Performers, and Athlete",
+        "H_MEDIAN": 39.68
+    },
+    {
+        "OCC_TITLE": "Buyers and Purchasing Agent",
+        "H_MEDIAN": 32.51
+    },
+    {
+        "OCC_TITLE": "Claims Adjusters, Appraisers, Examiners, and Investigator",
+        "H_MEDIAN": 34.63
+    },
+    {
+        "OCC_TITLE": "Claims Adjusters, Examiners, and Investigator",
+        "H_MEDIAN": 34.73
+    },
+    {
+        "OCC_TITLE": "Insurance Appraisers, Auto Damage",
+        "H_MEDIAN": 33.36
+    },
+    {
+        "OCC_TITLE": "Compliance Officer",
+        "H_MEDIAN": 34.47
+    },
+    {
+        "OCC_TITLE": "Cost Estimator",
+        "H_MEDIAN": 34.23
+    },
+    {
+        "OCC_TITLE": "Human Resources Worker",
+        "H_MEDIAN": 31.25
+    },
+    {
+        "OCC_TITLE": "Human Resources Specialist",
+        "H_MEDIAN": 30.88
+    },
+    {
+        "OCC_TITLE": "Farm Labor Contractor",
+        "H_MEDIAN": 23.72
+    },
+    {
+        "OCC_TITLE": "Labor Relations Specialist",
+        "H_MEDIAN": 39.43
+    },
+    {
+        "OCC_TITLE": "Logisticians and Project Management Specialist",
+        "H_MEDIAN": 42.33
+    },
+    {
+        "OCC_TITLE": "Logistician",
+        "H_MEDIAN": 37.27
+    },
+    {
+        "OCC_TITLE": "Project Management Specialist",
+        "H_MEDIAN": 45.85
+    },
+    {
+        "OCC_TITLE": "Management Analyst",
+        "H_MEDIAN": 45.81
+    },
+    {
+        "OCC_TITLE": "Meeting, Convention, and Event Planner",
+        "H_MEDIAN": 25.27
+    },
+    {
+        "OCC_TITLE": "Fundraiser",
+        "H_MEDIAN": 29.42
+    },
+    {
+        "OCC_TITLE": "Compensation, Benefits, and Job Analysis Specialist",
+        "H_MEDIAN": 32.59
+    },
+    {
+        "OCC_TITLE": "Training and Development Specialist",
+        "H_MEDIAN": 30.33
+    },
+    {
+        "OCC_TITLE": "Market Research Analysts and Marketing Specialist",
+        "H_MEDIAN": 32.8
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Business Operations Specialist",
+        "H_MEDIAN": 36.53
+    },
+    {
+        "OCC_TITLE": "Business Operations Specialists, All Other",
+        "H_MEDIAN": 36.53
+    },
+    {
+        "OCC_TITLE": "Financial Specialist",
+        "H_MEDIAN": 37.59
+    },
+    {
+        "OCC_TITLE": "Accountants and Auditor",
+        "H_MEDIAN": 37.5
+    },
+    {
+        "OCC_TITLE": "Property Appraisers and Assessor",
+        "H_MEDIAN": 29.6
+    },
+    {
+        "OCC_TITLE": "Budget Analyst",
+        "H_MEDIAN": 39.55
+    },
+    {
+        "OCC_TITLE": "Credit Analyst",
+        "H_MEDIAN": 37.91
+    },
+    {
+        "OCC_TITLE": "Financial Analysts and Advisor",
+        "H_MEDIAN": 43.6
+    },
+    {
+        "OCC_TITLE": "Financial and Investment Analyst",
+        "H_MEDIAN": 45.71
+    },
+    {
+        "OCC_TITLE": "Personal Financial Advisor",
+        "H_MEDIAN": 45.86
+    },
+    {
+        "OCC_TITLE": "Insurance Underwriter",
+        "H_MEDIAN": 36.65
+    },
+    {
+        "OCC_TITLE": "Financial Risk Specialist",
+        "H_MEDIAN": 49.1
+    },
+    {
+        "OCC_TITLE": "Financial Examiner",
+        "H_MEDIAN": 39.52
+    },
+    {
+        "OCC_TITLE": "Credit Counselors and Loan Officer",
+        "H_MEDIAN": 30.6
+    },
+    {
+        "OCC_TITLE": "Credit Counselor",
+        "H_MEDIAN": 22.75
+    },
+    {
+        "OCC_TITLE": "Loan Officer",
+        "H_MEDIAN": 31.6
+    },
+    {
+        "OCC_TITLE": "Tax Examiners, Collectors and Preparers, and Revenue Agent",
+        "H_MEDIAN": 24.92
+    },
+    {
+        "OCC_TITLE": "Tax Examiners and Collectors, and Revenue Agent",
+        "H_MEDIAN": 27.86
+    },
+    {
+        "OCC_TITLE": "Tax Preparer",
+        "H_MEDIAN": 23.2
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Financial Specialist",
+        "H_MEDIAN": 35.48
+    },
+    {
+        "OCC_TITLE": "Financial Specialists, All Other",
+        "H_MEDIAN": 35.48
+    },
+    {
+        "OCC_TITLE": "Computer and Mathematical Occupation",
+        "H_MEDIAN": 48.29
+    },
+    {
+        "OCC_TITLE": "Computer Occupation",
+        "H_MEDIAN": 48.33
+    },
+    {
+        "OCC_TITLE": "Computer and Information Analyst",
+        "H_MEDIAN": 50.11
+    },
+    {
+        "OCC_TITLE": "Computer Systems Analyst",
+        "H_MEDIAN": 49.15
+    },
+    {
+        "OCC_TITLE": "Information Security Analyst",
+        "H_MEDIAN": 53.85
+    },
+    {
+        "OCC_TITLE": "Computer and Information Research Scientist",
+        "H_MEDIAN": 65.69
+    },
+    {
+        "OCC_TITLE": "Computer Support Specialist",
+        "H_MEDIAN": 28.68
+    },
+    {
+        "OCC_TITLE": "Computer Network Support Specialist",
+        "H_MEDIAN": 32.72
+    },
+    {
+        "OCC_TITLE": "Computer User Support Specialist",
+        "H_MEDIAN": 27.83
+    },
+    {
+        "OCC_TITLE": "Database and Network Administrators and Architect",
+        "H_MEDIAN": 49.65
+    },
+    {
+        "OCC_TITLE": "Computer Network Architect",
+        "H_MEDIAN": 61.01
+    },
+    {
+        "OCC_TITLE": "Database Administrator",
+        "H_MEDIAN": 48.03
+    },
+    {
+        "OCC_TITLE": "Database Architect",
+        "H_MEDIAN": 64.84
+    },
+    {
+        "OCC_TITLE": "Network and Computer Systems Administrator",
+        "H_MEDIAN": 43.52
+    },
+    {
+        "OCC_TITLE": "Software and Web Developers, Programmers, and Tester",
+        "H_MEDIAN": 54.9
+    },
+    {
+        "OCC_TITLE": "Computer Programmer",
+        "H_MEDIAN": 47.02
+    },
+    {
+        "OCC_TITLE": "Software Developer",
+        "H_MEDIAN": 61.18
+    },
+    {
+        "OCC_TITLE": "Software Quality Assurance Analysts and Tester",
+        "H_MEDIAN": 47.89
+    },
+    {
+        "OCC_TITLE": "Web Developer",
+        "H_MEDIAN": 37.78
+    },
+    {
+        "OCC_TITLE": "Web and Digital Interface Designer",
+        "H_MEDIAN": 40.02
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Computer Occupation",
+        "H_MEDIAN": 47.47
+    },
+    {
+        "OCC_TITLE": "Computer Occupations, All Other",
+        "H_MEDIAN": 47.47
+    },
+    {
+        "OCC_TITLE": "Mathematical Science Occupation",
+        "H_MEDIAN": 47.88
+    },
+    {
+        "OCC_TITLE": "Actuarie",
+        "H_MEDIAN": 54.8
+    },
+    {
+        "OCC_TITLE": "Mathematician",
+        "H_MEDIAN": 53.9
+    },
+    {
+        "OCC_TITLE": "Operations Research Analyst",
+        "H_MEDIAN": 41.21
+    },
+    {
+        "OCC_TITLE": "Statistician",
+        "H_MEDIAN": 47.56
+    },
+    {
+        "OCC_TITLE": "Data Scientist",
+        "H_MEDIAN": 49.76
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Mathematical Science Occupation",
+        "H_MEDIAN": 34.47
+    },
+    {
+        "OCC_TITLE": "Mathematical Science Occupations, All Other",
+        "H_MEDIAN": 34.47
+    },
+    {
+        "OCC_TITLE": "Architecture and Engineering Occupation",
+        "H_MEDIAN": 40.24
+    },
+    {
+        "OCC_TITLE": "Architects, Surveyors, and Cartographer",
+        "H_MEDIAN": 37.98
+    },
+    {
+        "OCC_TITLE": "Architects, Except Naval",
+        "H_MEDIAN": 39.25
+    },
+    {
+        "OCC_TITLE": "Architects, Except Landscape and Naval",
+        "H_MEDIAN": 39.83
+    },
+    {
+        "OCC_TITLE": "Landscape Architect",
+        "H_MEDIAN": 35.2
+    },
+    {
+        "OCC_TITLE": "Surveyors, Cartographers, and Photogrammetrist",
+        "H_MEDIAN": 31.11
+    },
+    {
+        "OCC_TITLE": "Cartographers and Photogrammetrist",
+        "H_MEDIAN": 34.56
+    },
+    {
+        "OCC_TITLE": "Surveyor",
+        "H_MEDIAN": 30.33
+    },
+    {
+        "OCC_TITLE": "Engineer",
+        "H_MEDIAN": 48.09
+    },
+    {
+        "OCC_TITLE": "Aerospace Engineer",
+        "H_MEDIAN": 61
+    },
+    {
+        "OCC_TITLE": "Agricultural Engineer",
+        "H_MEDIAN": 40.03
+    },
+    {
+        "OCC_TITLE": "Bioengineers and Biomedical Engineer",
+        "H_MEDIAN": 47.86
+    },
+    {
+        "OCC_TITLE": "Chemical Engineer",
+        "H_MEDIAN": 51.09
+    },
+    {
+        "OCC_TITLE": "Civil Engineer",
+        "H_MEDIAN": 43.24
+    },
+    {
+        "OCC_TITLE": "Computer Hardware Engineer",
+        "H_MEDIAN": 63.64
+    },
+    {
+        "OCC_TITLE": "Electrical and Electronics Engineer",
+        "H_MEDIAN": 50.29
+    },
+    {
+        "OCC_TITLE": "Electrical Engineer",
+        "H_MEDIAN": 49.67
+    },
+    {
+        "OCC_TITLE": "Electronics Engineers, Except Computer",
+        "H_MEDIAN": 52
+    },
+    {
+        "OCC_TITLE": "Environmental Engineer",
+        "H_MEDIAN": 46.41
+    },
+    {
+        "OCC_TITLE": "Industrial Engineers, Including Health and Safety",
+        "H_MEDIAN": 46.44
+    },
+    {
+        "OCC_TITLE": "Health and Safety Engineers, Except Mining Safety Engineers and Inspector",
+        "H_MEDIAN": 48.4
+    },
+    {
+        "OCC_TITLE": "Industrial Engineer",
+        "H_MEDIAN": 46.32
+    },
+    {
+        "OCC_TITLE": "Marine Engineers and Naval Architect",
+        "H_MEDIAN": 46.59
+    },
+    {
+        "OCC_TITLE": "Materials Engineer",
+        "H_MEDIAN": 48.15
+    },
+    {
+        "OCC_TITLE": "Mechanical Engineer",
+        "H_MEDIAN": 46.31
+    },
+    {
+        "OCC_TITLE": "Mining and Geological Engineers, Including Mining Safety Engineer",
+        "H_MEDIAN": 46.87
+    },
+    {
+        "OCC_TITLE": "Nuclear Engineer",
+        "H_MEDIAN": 58.89
+    },
+    {
+        "OCC_TITLE": "Petroleum Engineer",
+        "H_MEDIAN": 63.37
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Engineer",
+        "H_MEDIAN": 50.29
+    },
+    {
+        "OCC_TITLE": "Engineers, All Other",
+        "H_MEDIAN": 50.29
+    },
+    {
+        "OCC_TITLE": "Drafters, Engineering Technicians, and Mapping Technician",
+        "H_MEDIAN": 29.37
+    },
+    {
+        "OCC_TITLE": "Drafter",
+        "H_MEDIAN": 29.04
+    },
+    {
+        "OCC_TITLE": "Architectural and Civil Drafter",
+        "H_MEDIAN": 28.76
+    },
+    {
+        "OCC_TITLE": "Electrical and Electronics Drafter",
+        "H_MEDIAN": 30.89
+    },
+    {
+        "OCC_TITLE": "Mechanical Drafter",
+        "H_MEDIAN": 29.48
+    },
+    {
+        "OCC_TITLE": "Drafters, All Other",
+        "H_MEDIAN": 27.71
+    },
+    {
+        "OCC_TITLE": "Engineering Technologists and Technicians, Except Drafter",
+        "H_MEDIAN": 30.06
+    },
+    {
+        "OCC_TITLE": "Aerospace Engineering and Operations Technologists and Technician",
+        "H_MEDIAN": 35.78
+    },
+    {
+        "OCC_TITLE": "Civil Engineering Technologists and Technician",
+        "H_MEDIAN": 28.67
+    },
+    {
+        "OCC_TITLE": "Electrical and Electronic Engineering Technologists and Technician",
+        "H_MEDIAN": 31.92
+    },
+    {
+        "OCC_TITLE": "Electro-Mechanical and Mechatronics Technologists and Technician",
+        "H_MEDIAN": 29.12
+    },
+    {
+        "OCC_TITLE": "Environmental Engineering Technologists and Technician",
+        "H_MEDIAN": 24.51
+    },
+    {
+        "OCC_TITLE": "Industrial Engineering Technologists and Technician",
+        "H_MEDIAN": 29.43
+    },
+    {
+        "OCC_TITLE": "Mechanical Engineering Technologists and Technician",
+        "H_MEDIAN": 29.8
+    },
+    {
+        "OCC_TITLE": "Calibration Technologists and Technician",
+        "H_MEDIAN": 29.83
+    },
+    {
+        "OCC_TITLE": "Engineering Technologists and Technicians, Except Drafters, All Other",
+        "H_MEDIAN": 31.5
+    },
+    {
+        "OCC_TITLE": "Surveying and Mapping Technician",
+        "H_MEDIAN": 22.68
+    },
+    {
+        "OCC_TITLE": "Life, Physical, and Social Science Occupation",
+        "H_MEDIAN": 35.74
+    },
+    {
+        "OCC_TITLE": "Life Scientist",
+        "H_MEDIAN": 39.93
+    },
+    {
+        "OCC_TITLE": "Agricultural and Food Scientist",
+        "H_MEDIAN": 36.03
+    },
+    {
+        "OCC_TITLE": "Animal Scientist",
+        "H_MEDIAN": 33.36
+    },
+    {
+        "OCC_TITLE": "Food Scientists and Technologist",
+        "H_MEDIAN": 38.39
+    },
+    {
+        "OCC_TITLE": "Soil and Plant Scientist",
+        "H_MEDIAN": 31.6
+    },
+    {
+        "OCC_TITLE": "Biological Scientist",
+        "H_MEDIAN": 41.35
+    },
+    {
+        "OCC_TITLE": "Biochemists and Biophysicist",
+        "H_MEDIAN": 49.91
+    },
+    {
+        "OCC_TITLE": "Microbiologist",
+        "H_MEDIAN": 39.42
+    },
+    {
+        "OCC_TITLE": "Zoologists and Wildlife Biologist",
+        "H_MEDIAN": 32.42
+    },
+    {
+        "OCC_TITLE": "Biological Scientists, All Other",
+        "H_MEDIAN": 41.97
+    },
+    {
+        "OCC_TITLE": "Conservation Scientists and Forester",
+        "H_MEDIAN": 30.97
+    },
+    {
+        "OCC_TITLE": "Conservation Scientist",
+        "H_MEDIAN": 30.99
+    },
+    {
+        "OCC_TITLE": "Forester",
+        "H_MEDIAN": 30.87
+    },
+    {
+        "OCC_TITLE": "Medical Scientist",
+        "H_MEDIAN": 46.74
+    },
+    {
+        "OCC_TITLE": "Epidemiologist",
+        "H_MEDIAN": 37.75
+    },
+    {
+        "OCC_TITLE": "Medical Scientists, Except Epidemiologist",
+        "H_MEDIAN": 48.04
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Life Scientist",
+        "H_MEDIAN": 40.35
+    },
+    {
+        "OCC_TITLE": "Life Scientists, All Other",
+        "H_MEDIAN": 40.35
+    },
+    {
+        "OCC_TITLE": "Physical Scientist",
+        "H_MEDIAN": 40.27
+    },
+    {
+        "OCC_TITLE": "Astronomers and Physicist",
+        "H_MEDIAN": 66.93
+    },
+    {
+        "OCC_TITLE": "Astronomer",
+        "H_MEDIAN": 61.7
+    },
+    {
+        "OCC_TITLE": "Physicist",
+        "H_MEDIAN": 68.68
+    },
+    {
+        "OCC_TITLE": "Atmospheric and Space Scientist",
+        "H_MEDIAN": 40.28
+    },
+    {
+        "OCC_TITLE": "Chemists and Materials Scientist",
+        "H_MEDIAN": 39.33
+    },
+    {
+        "OCC_TITLE": "Chemist",
+        "H_MEDIAN": 38.78
+    },
+    {
+        "OCC_TITLE": "Materials Scientist",
+        "H_MEDIAN": 50.18
+    },
+    {
+        "OCC_TITLE": "Environmental Scientists and Geoscientist",
+        "H_MEDIAN": 37.85
+    },
+    {
+        "OCC_TITLE": "Environmental Scientists and Specialists, Including Health",
+        "H_MEDIAN": 36.77
+    },
+    {
+        "OCC_TITLE": "Geoscientists, Except Hydrologists and Geographer",
+        "H_MEDIAN": 42.06
+    },
+    {
+        "OCC_TITLE": "Hydrologist",
+        "H_MEDIAN": 41.34
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Physical Scientist",
+        "H_MEDIAN": 51.91
+    },
+    {
+        "OCC_TITLE": "Physical Scientists, All Other",
+        "H_MEDIAN": 51.91
+    },
+    {
+        "OCC_TITLE": "Social Scientists and Related Worker",
+        "H_MEDIAN": 40.39
+    },
+    {
+        "OCC_TITLE": "Economist",
+        "H_MEDIAN": 54.78
+    },
+    {
+        "OCC_TITLE": "Survey Researcher",
+        "H_MEDIAN": 29.04
+    },
+    {
+        "OCC_TITLE": "Psychologist",
+        "H_MEDIAN": 41.02
+    },
+    {
+        "OCC_TITLE": "Industrial-Organizational Psychologist",
+        "H_MEDIAN": 66.96
+    },
+    {
+        "OCC_TITLE": "Clinical and Counseling Psychologist",
+        "H_MEDIAN": 43.33
+    },
+    {
+        "OCC_TITLE": "School Psychologist",
+        "H_MEDIAN": 39.18
+    },
+    {
+        "OCC_TITLE": "Psychologists, All Other",
+        "H_MEDIAN": 51.16
+    },
+    {
+        "OCC_TITLE": "Sociologist",
+        "H_MEDIAN": 47.4
+    },
+    {
+        "OCC_TITLE": "Urban and Regional Planner",
+        "H_MEDIAN": 38.24
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Social Scientists and Related Worker",
+        "H_MEDIAN": 41.38
+    },
+    {
+        "OCC_TITLE": "Anthropologists and Archeologist",
+        "H_MEDIAN": 30.74
+    },
+    {
+        "OCC_TITLE": "Geographer",
+        "H_MEDIAN": 42.74
+    },
+    {
+        "OCC_TITLE": "Historian",
+        "H_MEDIAN": 31.03
+    },
+    {
+        "OCC_TITLE": "Political Scientist",
+        "H_MEDIAN": 61.55
+    },
+    {
+        "OCC_TITLE": "Social Scientists and Related Workers, All Other",
+        "H_MEDIAN": 42.74
+    },
+    {
+        "OCC_TITLE": "Life, Physical, and Social Science Technician",
+        "H_MEDIAN": 23.94
+    },
+    {
+        "OCC_TITLE": "Agricultural and Food Science Technician",
+        "H_MEDIAN": 22.18
+    },
+    {
+        "OCC_TITLE": "Agricultural Technician",
+        "H_MEDIAN": 20.08
+    },
+    {
+        "OCC_TITLE": "Food Science Technician",
+        "H_MEDIAN": 23.01
+    },
+    {
+        "OCC_TITLE": "Biological Technician",
+        "H_MEDIAN": 23.87
+    },
+    {
+        "OCC_TITLE": "Chemical Technician",
+        "H_MEDIAN": 24.44
+    },
+    {
+        "OCC_TITLE": "Environmental Science and Geoscience Technician",
+        "H_MEDIAN": 23.38
+    },
+    {
+        "OCC_TITLE": "Environmental Science and Protection Technicians, Including Health",
+        "H_MEDIAN": 23.26
+    },
+    {
+        "OCC_TITLE": "Geological Technicians, Except Hydrologic Technician",
+        "H_MEDIAN": 23.31
+    },
+    {
+        "OCC_TITLE": "Hydrologic Technician",
+        "H_MEDIAN": 28.06
+    },
+    {
+        "OCC_TITLE": "Nuclear Technician",
+        "H_MEDIAN": 48.28
+    },
+    {
+        "OCC_TITLE": "Social Science Research Assistant",
+        "H_MEDIAN": 24.26
+    },
+    {
+        "OCC_TITLE": "Forest and Conservation Technician",
+        "H_MEDIAN": 19.96
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Life, Physical, and Social Science Technician",
+        "H_MEDIAN": 25.66
+    },
+    {
+        "OCC_TITLE": "Forensic Science Technician",
+        "H_MEDIAN": 30.64
+    },
+    {
+        "OCC_TITLE": "Life, Physical, and Social Science Technicians, All Other",
+        "H_MEDIAN": 24.18
+    },
+    {
+        "OCC_TITLE": "Occupational Health and Safety Specialists and Technician",
+        "H_MEDIAN": 36.17
+    },
+    {
+        "OCC_TITLE": "Occupational Health and Safety Specialist",
+        "H_MEDIAN": 37.77
+    },
+    {
+        "OCC_TITLE": "Occupational Health and Safety Technician",
+        "H_MEDIAN": 27.87
+    },
+    {
+        "OCC_TITLE": "Community and Social Service Occupation",
+        "H_MEDIAN": 23.74
+    },
+    {
+        "OCC_TITLE": "Counselors, Social Workers, and Other Community and Social Service Specialist",
+        "H_MEDIAN": 23.72
+    },
+    {
+        "OCC_TITLE": "Counselor",
+        "H_MEDIAN": 24.61
+    },
+    {
+        "OCC_TITLE": "Educational, Guidance, and Career Counselors and Advisor",
+        "H_MEDIAN": 28.92
+    },
+    {
+        "OCC_TITLE": "Marriage and Family Therapist",
+        "H_MEDIAN": 27.2
+    },
+    {
+        "OCC_TITLE": "Rehabilitation Counselor",
+        "H_MEDIAN": 19.23
+    },
+    {
+        "OCC_TITLE": "Substance Abuse, Behavioral Disorder, and Mental Health Counselor",
+        "H_MEDIAN": 23.9
+    },
+    {
+        "OCC_TITLE": "Counselors, All Other",
+        "H_MEDIAN": 20.86
+    },
+    {
+        "OCC_TITLE": "Social Worker",
+        "H_MEDIAN": 26.61
+    },
+    {
+        "OCC_TITLE": "Child, Family, and School Social Worker",
+        "H_MEDIAN": 24.43
+    },
+    {
+        "OCC_TITLE": "Healthcare Social Worker",
+        "H_MEDIAN": 28.98
+    },
+    {
+        "OCC_TITLE": "Mental Health and Substance Abuse Social Worker",
+        "H_MEDIAN": 24.63
+    },
+    {
+        "OCC_TITLE": "Social Workers, All Other",
+        "H_MEDIAN": 29.53
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Community and Social Service Specialist",
+        "H_MEDIAN": 21.18
+    },
+    {
+        "OCC_TITLE": "Health Education Specialist",
+        "H_MEDIAN": 28.84
+    },
+    {
+        "OCC_TITLE": "Probation Officers and Correctional Treatment Specialist",
+        "H_MEDIAN": 28.78
+    },
+    {
+        "OCC_TITLE": "Social and Human Service Assistant",
+        "H_MEDIAN": 18.52
+    },
+    {
+        "OCC_TITLE": "Community Health Worker",
+        "H_MEDIAN": 22.21
+    },
+    {
+        "OCC_TITLE": "Community and Social Service Specialists, All Other",
+        "H_MEDIAN": 22.74
+    },
+    {
+        "OCC_TITLE": "Religious Worker",
+        "H_MEDIAN": 24.37
+    },
+    {
+        "OCC_TITLE": "Clergy",
+        "H_MEDIAN": 26.71
+    },
+    {
+        "OCC_TITLE": "Directors, Religious Activities and Education",
+        "H_MEDIAN": 23.74
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Religious Worker",
+        "H_MEDIAN": 18.93
+    },
+    {
+        "OCC_TITLE": "Religious Workers, All Other",
+        "H_MEDIAN": 18.93
+    },
+    {
+        "OCC_TITLE": "Legal Occupation",
+        "H_MEDIAN": 45.76
+    },
+    {
+        "OCC_TITLE": "Lawyers, Judges, and Related Worker",
+        "H_MEDIAN": 64.19
+    },
+    {
+        "OCC_TITLE": "Lawyers and Judicial Law Clerk",
+        "H_MEDIAN": 64.49
+    },
+    {
+        "OCC_TITLE": "Lawyer",
+        "H_MEDIAN": 65.26
+    },
+    {
+        "OCC_TITLE": "Judicial Law Clerk",
+        "H_MEDIAN": 27.64
+    },
+    {
+        "OCC_TITLE": "Judges, Magistrates, and Other Judicial Worker",
+        "H_MEDIAN": 54.61
+    },
+    {
+        "OCC_TITLE": "Administrative Law Judges, Adjudicators, and Hearing Officer",
+        "H_MEDIAN": 45.67
+    },
+    {
+        "OCC_TITLE": "Arbitrators, Mediators, and Conciliator",
+        "H_MEDIAN": 30.78
+    },
+    {
+        "OCC_TITLE": "Judges, Magistrate Judges, and Magistrate",
+        "H_MEDIAN": 72.61
+    },
+    {
+        "OCC_TITLE": "Legal Support Worker",
+        "H_MEDIAN": 28.28
+    },
+    {
+        "OCC_TITLE": "Paralegals and Legal Assistant",
+        "H_MEDIAN": 28.46
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Legal Support Worker",
+        "H_MEDIAN": 27.33
+    },
+    {
+        "OCC_TITLE": "Title Examiners, Abstractors, and Searcher",
+        "H_MEDIAN": 24.28
+    },
+    {
+        "OCC_TITLE": "Legal Support Workers, All Other",
+        "H_MEDIAN": 29.97
+    },
+    {
+        "OCC_TITLE": "Educational Instruction and Library Occupation",
+        "H_MEDIAN": 27.64
+    },
+    {
+        "OCC_TITLE": "Postsecondary Teacher",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Business Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Math and Computer Science Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Computer Science Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Mathematical Science Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Engineering and Architecture Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Architecture Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Engineering Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Life Sciences Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Agricultural Sciences Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Biological Science Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Forestry and Conservation Science Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Physical Sciences Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Chemistry Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Environmental Science Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Physics Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Social Sciences Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Anthropology and Archeology Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Area, Ethnic, and Cultural Studies Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Economics Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Geography Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Political Science Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Psychology Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Sociology Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Social Sciences Teachers, Postsecondary, All Other",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Health Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Health Specialties Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Nursing Instructors and Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Education and Library Science Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Education Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Library Science Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Law, Criminal Justice, and Social Work Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Criminal Justice and Law Enforcement Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Law Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Social Work Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Arts, Communications, History, and Humanities Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Art, Drama, and Music Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Communications Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "English Language and Literature Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Foreign Language and Literature Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "History Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Philosophy and Religion Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Postsecondary Teacher",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Family and Consumer Sciences Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Recreation and Fitness Studies Teachers, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Career/Technical Education Teachers, Postsecondary",
+        "H_MEDIAN": 28.77
+    },
+    {
+        "OCC_TITLE": "Postsecondary Teachers, All Other",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Preschool, Elementary, Middle, Secondary, and Special Education Teacher",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Preschool and Kindergarten Teacher",
+        "H_MEDIAN": 17.79
+    },
+    {
+        "OCC_TITLE": "Preschool Teachers, Except Special Education",
+        "H_MEDIAN": 16.99
+    },
+    {
+        "OCC_TITLE": "Kindergarten Teachers, Except Special Education",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Elementary and Middle School Teacher",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Elementary School Teachers, Except Special Education",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Middle School Teachers, Except Special and Career/Technical Education",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Career/Technical Education Teachers, Middle School",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Secondary School Teacher",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Secondary School Teachers, Except Special and Career/Technical Education",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Career/Technical Education Teachers, Secondary School",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Special Education Teacher",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Special Education Teachers, Preschool",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Special Education Teachers, Kindergarten and Elementary School",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Special Education Teachers, Middle School",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Special Education Teachers, Secondary School",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Special Education Teachers, All Other",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Other Teachers and Instructor",
+        "H_MEDIAN": 18.51
+    },
+    {
+        "OCC_TITLE": "Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructor",
+        "H_MEDIAN": 28.17
+    },
+    {
+        "OCC_TITLE": "Self-Enrichment Teacher",
+        "H_MEDIAN": 21.21
+    },
+    {
+        "OCC_TITLE": "Substitute Teachers, Short-Term",
+        "H_MEDIAN": 16.95
+    },
+    {
+        "OCC_TITLE": "Tutor",
+        "H_MEDIAN": 17.63
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Teachers and Instructor",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Teachers and Instructors, All Other",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Librarians, Curators, and Archivist",
+        "H_MEDIAN": 24.62
+    },
+    {
+        "OCC_TITLE": "Archivists, Curators, and Museum Technician",
+        "H_MEDIAN": 25.68
+    },
+    {
+        "OCC_TITLE": "Archivist",
+        "H_MEDIAN": 28.19
+    },
+    {
+        "OCC_TITLE": "Curator",
+        "H_MEDIAN": 29.03
+    },
+    {
+        "OCC_TITLE": "Museum Technicians and Conservator",
+        "H_MEDIAN": 22.72
+    },
+    {
+        "OCC_TITLE": "Librarians and Media Collections Specialist",
+        "H_MEDIAN": 29.65
+    },
+    {
+        "OCC_TITLE": "Library Technician",
+        "H_MEDIAN": 18.08
+    },
+    {
+        "OCC_TITLE": "Other Educational Instruction and Library Occupation",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Farm and Home Management Educator",
+        "H_MEDIAN": 25.7
+    },
+    {
+        "OCC_TITLE": "Instructional Coordinator",
+        "H_MEDIAN": 31.97
+    },
+    {
+        "OCC_TITLE": "Teaching Assistant",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Teaching Assistants, Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Teaching Assistants, Except Postsecondary",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Educational Instruction and Library Worker",
+        "H_MEDIAN": 22.91
+    },
+    {
+        "OCC_TITLE": "Educational Instruction and Library Workers, All Other",
+        "H_MEDIAN": 22.91
+    },
+    {
+        "OCC_TITLE": "Arts, Design, Entertainment, Sports, and Media Occupation",
+        "H_MEDIAN": 27.9
+    },
+    {
+        "OCC_TITLE": "Art and Design Worker",
+        "H_MEDIAN": 24.59
+    },
+    {
+        "OCC_TITLE": "Artists and Related Worker",
+        "H_MEDIAN": 45.78
+    },
+    {
+        "OCC_TITLE": "Art Director",
+        "H_MEDIAN": 50.57
+    },
+    {
+        "OCC_TITLE": "Craft Artist",
+        "H_MEDIAN": 18.34
+    },
+    {
+        "OCC_TITLE": "Fine Artists, Including Painters, Sculptors, and Illustrator",
+        "H_MEDIAN": 27.67
+    },
+    {
+        "OCC_TITLE": "Special Effects Artists and Animator",
+        "H_MEDIAN": 47.57
+    },
+    {
+        "OCC_TITLE": "Artists and Related Workers, All Other",
+        "H_MEDIAN": 33.54
+    },
+    {
+        "OCC_TITLE": "Designer",
+        "H_MEDIAN": 22.59
+    },
+    {
+        "OCC_TITLE": "Commercial and Industrial Designer",
+        "H_MEDIAN": 36.5
+    },
+    {
+        "OCC_TITLE": "Fashion Designer",
+        "H_MEDIAN": 36.87
+    },
+    {
+        "OCC_TITLE": "Floral Designer",
+        "H_MEDIAN": 15.94
+    },
+    {
+        "OCC_TITLE": "Graphic Designer",
+        "H_MEDIAN": 27.88
+    },
+    {
+        "OCC_TITLE": "Interior Designer",
+        "H_MEDIAN": 29.61
+    },
+    {
+        "OCC_TITLE": "Merchandise Displayers and Window Trimmer",
+        "H_MEDIAN": 17.01
+    },
+    {
+        "OCC_TITLE": "Set and Exhibit Designer",
+        "H_MEDIAN": 28.84
+    },
+    {
+        "OCC_TITLE": "Designers, All Other",
+        "H_MEDIAN": 31.44
+    },
+    {
+        "OCC_TITLE": "Entertainers and Performers, Sports and Related Worker",
+        "H_MEDIAN": 25.45
+    },
+    {
+        "OCC_TITLE": "Actors, Producers, and Director",
+        "H_MEDIAN": 36.27
+    },
+    {
+        "OCC_TITLE": "Actor",
+        "H_MEDIAN": 17.94
+    },
+    {
+        "OCC_TITLE": "Producers and Director",
+        "H_MEDIAN": 41.02
+    },
+    {
+        "OCC_TITLE": "Athletes, Coaches, Umpires, and Related Worker",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Athletes and Sports Competitor",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Coaches and Scout",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Umpires, Referees, and Other Sports Official",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Dancers and Choreographer",
+        "H_MEDIAN": 22.62
+    },
+    {
+        "OCC_TITLE": "Dancer",
+        "H_MEDIAN": 21.64
+    },
+    {
+        "OCC_TITLE": "Choreographer",
+        "H_MEDIAN": 24.52
+    },
+    {
+        "OCC_TITLE": "Musicians, Singers, and Related Worker",
+        "H_MEDIAN": 36.01
+    },
+    {
+        "OCC_TITLE": "Music Directors and Composer",
+        "H_MEDIAN": 30.26
+    },
+    {
+        "OCC_TITLE": "Musicians and Singer",
+        "H_MEDIAN": 39.14
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Entertainers and Performers, Sports and Related Worker",
+        "H_MEDIAN": 20.9
+    },
+    {
+        "OCC_TITLE": "Disc Jockeys, Except Radio",
+        "H_MEDIAN": 21.34
+    },
+    {
+        "OCC_TITLE": "Entertainers and Performers, Sports and Related Workers, All Other",
+        "H_MEDIAN": 20.31
+    },
+    {
+        "OCC_TITLE": "Media and Communication Worker",
+        "H_MEDIAN": 31.85
+    },
+    {
+        "OCC_TITLE": "Broadcast Announcers and Radio Disc Jockey",
+        "H_MEDIAN": 20.07
+    },
+    {
+        "OCC_TITLE": "News Analysts, Reporters and Journalist",
+        "H_MEDIAN": 26.9
+    },
+    {
+        "OCC_TITLE": "News Analysts, Reporters, and Journalist",
+        "H_MEDIAN": 26.9
+    },
+    {
+        "OCC_TITLE": "Public Relations Specialist",
+        "H_MEDIAN": 32.42
+    },
+    {
+        "OCC_TITLE": "Writers and Editor",
+        "H_MEDIAN": 36.1
+    },
+    {
+        "OCC_TITLE": "Editor",
+        "H_MEDIAN": 35.14
+    },
+    {
+        "OCC_TITLE": "Technical Writer",
+        "H_MEDIAN": 38.44
+    },
+    {
+        "OCC_TITLE": "Writers and Author",
+        "H_MEDIAN": 35.17
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Media and Communication Worker",
+        "H_MEDIAN": 27.97
+    },
+    {
+        "OCC_TITLE": "Interpreters and Translator",
+        "H_MEDIAN": 25.79
+    },
+    {
+        "OCC_TITLE": "Court Reporters and Simultaneous Captioner",
+        "H_MEDIAN": 30.56
+    },
+    {
+        "OCC_TITLE": "Media and Communication Workers, All Other",
+        "H_MEDIAN": 31.25
+    },
+    {
+        "OCC_TITLE": "Media and Communication Equipment Worker",
+        "H_MEDIAN": 25.4
+    },
+    {
+        "OCC_TITLE": "Broadcast, Sound, and Lighting Technician",
+        "H_MEDIAN": 25.94
+    },
+    {
+        "OCC_TITLE": "Audio and Video Technician",
+        "H_MEDIAN": 24.36
+    },
+    {
+        "OCC_TITLE": "Broadcast Technician",
+        "H_MEDIAN": 29.19
+    },
+    {
+        "OCC_TITLE": "Sound Engineering Technician",
+        "H_MEDIAN": 29.17
+    },
+    {
+        "OCC_TITLE": "Lighting Technician",
+        "H_MEDIAN": 29.64
+    },
+    {
+        "OCC_TITLE": "Photographer",
+        "H_MEDIAN": 19.31
+    },
+    {
+        "OCC_TITLE": "Television, Video, and Film Camera Operators and Editor",
+        "H_MEDIAN": 30.01
+    },
+    {
+        "OCC_TITLE": "Camera Operators, Television, Video, and Film",
+        "H_MEDIAN": 27.99
+    },
+    {
+        "OCC_TITLE": "Film and Video Editor",
+        "H_MEDIAN": 30.54
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Media and Communication Equipment Worker",
+        "H_MEDIAN": 33.41
+    },
+    {
+        "OCC_TITLE": "Media and Communication Equipment Workers, All Other",
+        "H_MEDIAN": 33.41
+    },
+    {
+        "OCC_TITLE": "Healthcare Practitioners and Technical Occupation",
+        "H_MEDIAN": 37.38
+    },
+    {
+        "OCC_TITLE": "Healthcare Diagnosing or Treating Practitioner",
+        "H_MEDIAN": 45.05
+    },
+    {
+        "OCC_TITLE": "Chiropractor",
+        "H_MEDIAN": 36.24
+    },
+    {
+        "OCC_TITLE": "Dentist",
+        "H_MEDIAN": 76.7
+    },
+    {
+        "OCC_TITLE": "Dentists, General",
+        "H_MEDIAN": 74.54
+    },
+    {
+        "OCC_TITLE": "Oral and Maxillofacial Surgeon",
+        "H_MEDIAN": "#"
+    },
+    {
+        "OCC_TITLE": "Orthodontist",
+        "H_MEDIAN": 83.83
+    },
+    {
+        "OCC_TITLE": "Dentists, All Other Specialist",
+        "H_MEDIAN": 102.28
+    },
+    {
+        "OCC_TITLE": "Dietitians and Nutritionist",
+        "H_MEDIAN": 31.95
+    },
+    {
+        "OCC_TITLE": "Optometrist",
+        "H_MEDIAN": 60.38
+    },
+    {
+        "OCC_TITLE": "Pharmacist",
+        "H_MEDIAN": 63.82
+    },
+    {
+        "OCC_TITLE": "Physician Assistant",
+        "H_MEDIAN": 60.58
+    },
+    {
+        "OCC_TITLE": "Podiatrist",
+        "H_MEDIAN": 71.5
+    },
+    {
+        "OCC_TITLE": "Therapist",
+        "H_MEDIAN": 40.37
+    },
+    {
+        "OCC_TITLE": "Occupational Therapist",
+        "H_MEDIAN": 44.8
+    },
+    {
+        "OCC_TITLE": "Physical Therapist",
+        "H_MEDIAN": 46.98
+    },
+    {
+        "OCC_TITLE": "Radiation Therapist",
+        "H_MEDIAN": 43.04
+    },
+    {
+        "OCC_TITLE": "Recreational Therapist",
+        "H_MEDIAN": 24.68
+    },
+    {
+        "OCC_TITLE": "Respiratory Therapist",
+        "H_MEDIAN": 33.91
+    },
+    {
+        "OCC_TITLE": "Speech-Language Pathologist",
+        "H_MEDIAN": 40.45
+    },
+    {
+        "OCC_TITLE": "Exercise Physiologist",
+        "H_MEDIAN": 24.69
+    },
+    {
+        "OCC_TITLE": "Therapists, All Other",
+        "H_MEDIAN": 29.23
+    },
+    {
+        "OCC_TITLE": "Veterinarian",
+        "H_MEDIAN": 49.64
+    },
+    {
+        "OCC_TITLE": "Registered Nurse",
+        "H_MEDIAN": 39.05
+    },
+    {
+        "OCC_TITLE": "Nurse Anesthetist",
+        "H_MEDIAN": 97.64
+    },
+    {
+        "OCC_TITLE": "Nurse Midwive",
+        "H_MEDIAN": 58.12
+    },
+    {
+        "OCC_TITLE": "Nurse Practitioner",
+        "H_MEDIAN": 58.47
+    },
+    {
+        "OCC_TITLE": "Audiologist",
+        "H_MEDIAN": 39.75
+    },
+    {
+        "OCC_TITLE": "Physician",
+        "H_MEDIAN": 109.22
+    },
+    {
+        "OCC_TITLE": "Anesthesiologist",
+        "H_MEDIAN": "#"
+    },
+    {
+        "OCC_TITLE": "Cardiologist",
+        "H_MEDIAN": "#"
+    },
+    {
+        "OCC_TITLE": "Dermatologist",
+        "H_MEDIAN": "#"
+    },
+    {
+        "OCC_TITLE": "Emergency Medicine Physician",
+        "H_MEDIAN": "#"
+    },
+    {
+        "OCC_TITLE": "Family Medicine Physician",
+        "H_MEDIAN": 101.59
+    },
+    {
+        "OCC_TITLE": "General Internal Medicine Physician",
+        "H_MEDIAN": 103.11
+    },
+    {
+        "OCC_TITLE": "Neurologist",
+        "H_MEDIAN": 107.82
+    },
+    {
+        "OCC_TITLE": "Obstetricians and Gynecologist",
+        "H_MEDIAN": "#"
+    },
+    {
+        "OCC_TITLE": "Pediatricians, General",
+        "H_MEDIAN": 91.51
+    },
+    {
+        "OCC_TITLE": "Physicians, Pathologist",
+        "H_MEDIAN": "#"
+    },
+    {
+        "OCC_TITLE": "Psychiatrist",
+        "H_MEDIAN": 109.08
+    },
+    {
+        "OCC_TITLE": "Radiologist",
+        "H_MEDIAN": "#"
+    },
+    {
+        "OCC_TITLE": "Physicians, All Other",
+        "H_MEDIAN": 107.41
+    },
+    {
+        "OCC_TITLE": "Surgeon",
+        "H_MEDIAN": "#"
+    },
+    {
+        "OCC_TITLE": "Ophthalmologists, Except Pediatric",
+        "H_MEDIAN": 105.68
+    },
+    {
+        "OCC_TITLE": "Orthopedic Surgeons, Except Pediatric",
+        "H_MEDIAN": "#"
+    },
+    {
+        "OCC_TITLE": "Pediatric Surgeon",
+        "H_MEDIAN": "#"
+    },
+    {
+        "OCC_TITLE": "Surgeons, All Other",
+        "H_MEDIAN": "#"
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Healthcare Diagnosing or Treating Practitioner",
+        "H_MEDIAN": 39.4
+    },
+    {
+        "OCC_TITLE": "Acupuncturist",
+        "H_MEDIAN": 34.72
+    },
+    {
+        "OCC_TITLE": "Dental Hygienist",
+        "H_MEDIAN": 39.14
+    },
+    {
+        "OCC_TITLE": "Healthcare Diagnosing or Treating Practitioners, All Other",
+        "H_MEDIAN": 51.07
+    },
+    {
+        "OCC_TITLE": "Health Technologists and Technician",
+        "H_MEDIAN": 23.35
+    },
+    {
+        "OCC_TITLE": "Clinical Laboratory Technologists and Technician",
+        "H_MEDIAN": 27.59
+    },
+    {
+        "OCC_TITLE": "Diagnostic Related Technologists and Technician",
+        "H_MEDIAN": 35.84
+    },
+    {
+        "OCC_TITLE": "Cardiovascular Technologists and Technician",
+        "H_MEDIAN": 30.3
+    },
+    {
+        "OCC_TITLE": "Diagnostic Medical Sonographer",
+        "H_MEDIAN": 39.11
+    },
+    {
+        "OCC_TITLE": "Nuclear Medicine Technologist",
+        "H_MEDIAN": 41.01
+    },
+    {
+        "OCC_TITLE": "Radiologic Technologists and Technician",
+        "H_MEDIAN": 31.32
+    },
+    {
+        "OCC_TITLE": "Magnetic Resonance Imaging Technologist",
+        "H_MEDIAN": 38.51
+    },
+    {
+        "OCC_TITLE": "Medical Dosimetrist",
+        "H_MEDIAN": 62.01
+    },
+    {
+        "OCC_TITLE": "Emergency Medical Technicians and Paramedic",
+        "H_MEDIAN": 18.95
+    },
+    {
+        "OCC_TITLE": "Emergency Medical Technician",
+        "H_MEDIAN": 17.64
+    },
+    {
+        "OCC_TITLE": "Paramedic",
+        "H_MEDIAN": 23.6
+    },
+    {
+        "OCC_TITLE": "Health Practitioner Support Technologists and Technician",
+        "H_MEDIAN": 18.64
+    },
+    {
+        "OCC_TITLE": "Dietetic Technician",
+        "H_MEDIAN": 16.33
+    },
+    {
+        "OCC_TITLE": "Pharmacy Technician",
+        "H_MEDIAN": 18.17
+    },
+    {
+        "OCC_TITLE": "Psychiatric Technician",
+        "H_MEDIAN": 17.97
+    },
+    {
+        "OCC_TITLE": "Surgical Technologist",
+        "H_MEDIAN": 26.91
+    },
+    {
+        "OCC_TITLE": "Veterinary Technologists and Technician",
+        "H_MEDIAN": 18.38
+    },
+    {
+        "OCC_TITLE": "Ophthalmic Medical Technician",
+        "H_MEDIAN": 18.68
+    },
+    {
+        "OCC_TITLE": "Licensed Practical and Licensed Vocational Nurse",
+        "H_MEDIAN": 26.26
+    },
+    {
+        "OCC_TITLE": "Medical Records Specialist",
+        "H_MEDIAN": 22.69
+    },
+    {
+        "OCC_TITLE": "Opticians, Dispensing",
+        "H_MEDIAN": 19.04
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Health Technologists and Technician",
+        "H_MEDIAN": 22.08
+    },
+    {
+        "OCC_TITLE": "Orthotists and Prosthetist",
+        "H_MEDIAN": 37.05
+    },
+    {
+        "OCC_TITLE": "Hearing Aid Specialist",
+        "H_MEDIAN": 28.38
+    },
+    {
+        "OCC_TITLE": "Health Technologists and Technicians, All Other",
+        "H_MEDIAN": 21.63
+    },
+    {
+        "OCC_TITLE": "Other Healthcare Practitioners and Technical Occupation",
+        "H_MEDIAN": 27.76
+    },
+    {
+        "OCC_TITLE": "Health Information Technologists and Medical Registrar",
+        "H_MEDIAN": 28.01
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Health Practitioners and Technical Worker",
+        "H_MEDIAN": 27.71
+    },
+    {
+        "OCC_TITLE": "Athletic Trainer",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Genetic Counselor",
+        "H_MEDIAN": 43.26
+    },
+    {
+        "OCC_TITLE": "Surgical Assistant",
+        "H_MEDIAN": 27.54
+    },
+    {
+        "OCC_TITLE": "Healthcare Practitioners and Technical Workers, All Other",
+        "H_MEDIAN": 28.92
+    },
+    {
+        "OCC_TITLE": "Healthcare Support Occupation",
+        "H_MEDIAN": 16.16
+    },
+    {
+        "OCC_TITLE": "Home Health and Personal Care Aides; and Nursing Assistants, Orderlies, and Psychiatric Aide",
+        "H_MEDIAN": 15.12
+    },
+    {
+        "OCC_TITLE": "Home Health and Personal Care Aide",
+        "H_MEDIAN": 14.51
+    },
+    {
+        "OCC_TITLE": "Nursing Assistants, Orderlies, and Psychiatric Aide",
+        "H_MEDIAN": 17.19
+    },
+    {
+        "OCC_TITLE": "Nursing Assistant",
+        "H_MEDIAN": 17.19
+    },
+    {
+        "OCC_TITLE": "Orderlie",
+        "H_MEDIAN": 16.6
+    },
+    {
+        "OCC_TITLE": "Psychiatric Aide",
+        "H_MEDIAN": 17.86
+    },
+    {
+        "OCC_TITLE": "Occupational Therapy and Physical Therapist Assistants and Aide",
+        "H_MEDIAN": 28.64
+    },
+    {
+        "OCC_TITLE": "Occupational Therapy Assistants and Aide",
+        "H_MEDIAN": 30.51
+    },
+    {
+        "OCC_TITLE": "Occupational Therapy Assistant",
+        "H_MEDIAN": 30.89
+    },
+    {
+        "OCC_TITLE": "Occupational Therapy Aide",
+        "H_MEDIAN": 17.82
+    },
+    {
+        "OCC_TITLE": "Physical Therapist Assistants and Aide",
+        "H_MEDIAN": 27.52
+    },
+    {
+        "OCC_TITLE": "Physical Therapist Assistant",
+        "H_MEDIAN": 30.18
+    },
+    {
+        "OCC_TITLE": "Physical Therapist Aide",
+        "H_MEDIAN": 15.1
+    },
+    {
+        "OCC_TITLE": "Other Healthcare Support Occupation",
+        "H_MEDIAN": 18.66
+    },
+    {
+        "OCC_TITLE": "Massage Therapist",
+        "H_MEDIAN": 23.97
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Healthcare Support Occupation",
+        "H_MEDIAN": 18.53
+    },
+    {
+        "OCC_TITLE": "Dental Assistant",
+        "H_MEDIAN": 21.55
+    },
+    {
+        "OCC_TITLE": "Medical Assistant",
+        "H_MEDIAN": 18.4
+    },
+    {
+        "OCC_TITLE": "Medical Equipment Preparer",
+        "H_MEDIAN": 19.94
+    },
+    {
+        "OCC_TITLE": "Medical Transcriptionist",
+        "H_MEDIAN": 16.7
+    },
+    {
+        "OCC_TITLE": "Pharmacy Aide",
+        "H_MEDIAN": 15.99
+    },
+    {
+        "OCC_TITLE": "Veterinary Assistants and Laboratory Animal Caretaker",
+        "H_MEDIAN": 16.7
+    },
+    {
+        "OCC_TITLE": "Phlebotomist",
+        "H_MEDIAN": 18.53
+    },
+    {
+        "OCC_TITLE": "Healthcare Support Workers, All Other",
+        "H_MEDIAN": 19.43
+    },
+    {
+        "OCC_TITLE": "Protective Service Occupation",
+        "H_MEDIAN": 21.85
+    },
+    {
+        "OCC_TITLE": "Supervisors of Protective Service Worker",
+        "H_MEDIAN": 36.42
+    },
+    {
+        "OCC_TITLE": "First-Line Supervisors of Law Enforcement Worker",
+        "H_MEDIAN": 40.55
+    },
+    {
+        "OCC_TITLE": "First-Line Supervisors of Correctional Officer",
+        "H_MEDIAN": 30.44
+    },
+    {
+        "OCC_TITLE": "First-Line Supervisors of Police and Detective",
+        "H_MEDIAN": 46.29
+    },
+    {
+        "OCC_TITLE": "First-Line Supervisors of Firefighting and Prevention Worker",
+        "H_MEDIAN": 38.53
+    },
+    {
+        "OCC_TITLE": "Miscellaneous First-Line Supervisors, Protective Service Worker",
+        "H_MEDIAN": 25.41
+    },
+    {
+        "OCC_TITLE": "First-Line Supervisors of Security Worker",
+        "H_MEDIAN": 23.47
+    },
+    {
+        "OCC_TITLE": "First-Line Supervisors of Protective Service Workers, All Other",
+        "H_MEDIAN": 29.34
+    },
+    {
+        "OCC_TITLE": "Firefighting and Prevention Worker",
+        "H_MEDIAN": 25.36
+    },
+    {
+        "OCC_TITLE": "Firefighter",
+        "H_MEDIAN": 24.85
+    },
+    {
+        "OCC_TITLE": "Fire Inspector",
+        "H_MEDIAN": 31.63
+    },
+    {
+        "OCC_TITLE": "Fire Inspectors and Investigator",
+        "H_MEDIAN": 33.39
+    },
+    {
+        "OCC_TITLE": "Forest Fire Inspectors and Prevention Specialist",
+        "H_MEDIAN": 23.13
+    },
+    {
+        "OCC_TITLE": "Law Enforcement Worker",
+        "H_MEDIAN": 29.66
+    },
+    {
+        "OCC_TITLE": "Bailiffs, Correctional Officers, and Jailer",
+        "H_MEDIAN": 23.85
+    },
+    {
+        "OCC_TITLE": "Bailiff",
+        "H_MEDIAN": 23.6
+    },
+    {
+        "OCC_TITLE": "Correctional Officers and Jailer",
+        "H_MEDIAN": 23.85
+    },
+    {
+        "OCC_TITLE": "Detectives and Criminal Investigator",
+        "H_MEDIAN": 41.48
+    },
+    {
+        "OCC_TITLE": "Fish and Game Warden",
+        "H_MEDIAN": 28.61
+    },
+    {
+        "OCC_TITLE": "Parking Enforcement Worker",
+        "H_MEDIAN": 19.99
+    },
+    {
+        "OCC_TITLE": "Police Officer",
+        "H_MEDIAN": 31.64
+    },
+    {
+        "OCC_TITLE": "Police and Sheriff's Patrol Officer",
+        "H_MEDIAN": 31.63
+    },
+    {
+        "OCC_TITLE": "Transit and Railroad Police",
+        "H_MEDIAN": 33.25
+    },
+    {
+        "OCC_TITLE": "Other Protective Service Worker",
+        "H_MEDIAN": 16.66
+    },
+    {
+        "OCC_TITLE": "Animal Control Worker",
+        "H_MEDIAN": 18.9
+    },
+    {
+        "OCC_TITLE": "Private Detectives and Investigator",
+        "H_MEDIAN": 25.06
+    },
+    {
+        "OCC_TITLE": "Security Guards and Gambling Surveillance Officer",
+        "H_MEDIAN": 16.71
+    },
+    {
+        "OCC_TITLE": "Gambling Surveillance Officers and Gambling Investigator",
+        "H_MEDIAN": 17.3
+    },
+    {
+        "OCC_TITLE": "Security Guard",
+        "H_MEDIAN": 16.71
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Protective Service Worker",
+        "H_MEDIAN": 15.8
+    },
+    {
+        "OCC_TITLE": "Crossing Guards and Flagger",
+        "H_MEDIAN": 16.05
+    },
+    {
+        "OCC_TITLE": "Lifeguards, Ski Patrol, and Other Recreational Protective Service Worker",
+        "H_MEDIAN": 13.11
+    },
+    {
+        "OCC_TITLE": "Transportation Security Screener",
+        "H_MEDIAN": 22.94
+    },
+    {
+        "OCC_TITLE": "School Bus Monitor",
+        "H_MEDIAN": 14.37
+    },
+    {
+        "OCC_TITLE": "Protective Service Workers, All Other",
+        "H_MEDIAN": 17.53
+    },
+    {
+        "OCC_TITLE": "Food Preparation and Serving Related Occupation",
+        "H_MEDIAN": 14.25
+    },
+    {
+        "OCC_TITLE": "Supervisors of Food Preparation and Serving Worker",
+        "H_MEDIAN": 18.24
+    },
+    {
+        "OCC_TITLE": "Chefs and Head Cook",
+        "H_MEDIAN": 27.17
+    },
+    {
+        "OCC_TITLE": "First-Line Supervisors of Food Preparation and Serving Worker",
+        "H_MEDIAN": 17.81
+    },
+    {
+        "OCC_TITLE": "Cooks and Food Preparation Worker",
+        "H_MEDIAN": 14.71
+    },
+    {
+        "OCC_TITLE": "Cook",
+        "H_MEDIAN": 14.86
+    },
+    {
+        "OCC_TITLE": "Cooks, Fast Food",
+        "H_MEDIAN": 13.29
+    },
+    {
+        "OCC_TITLE": "Cooks, Institution and Cafeteria",
+        "H_MEDIAN": 15.63
+    },
+    {
+        "OCC_TITLE": "Cooks, Private Household",
+        "H_MEDIAN": 18.54
+    },
+    {
+        "OCC_TITLE": "Cooks, Restaurant",
+        "H_MEDIAN": 16.4
+    },
+    {
+        "OCC_TITLE": "Cooks, Short Order",
+        "H_MEDIAN": 14.6
+    },
+    {
+        "OCC_TITLE": "Cooks, All Other",
+        "H_MEDIAN": 16.06
+    },
+    {
+        "OCC_TITLE": "Food Preparation Worker",
+        "H_MEDIAN": 14.32
+    },
+    {
+        "OCC_TITLE": "Food and Beverage Serving Worker",
+        "H_MEDIAN": 13.67
+    },
+    {
+        "OCC_TITLE": "Bartender",
+        "H_MEDIAN": 14.12
+    },
+    {
+        "OCC_TITLE": "Fast Food and Counter Worker",
+        "H_MEDIAN": 13.43
+    },
+    {
+        "OCC_TITLE": "Waiters and Waitresse",
+        "H_MEDIAN": 14
+    },
+    {
+        "OCC_TITLE": "Food Servers, Nonrestaurant",
+        "H_MEDIAN": 14.57
+    },
+    {
+        "OCC_TITLE": "Other Food Preparation and Serving Related Worker",
+        "H_MEDIAN": 13.82
+    },
+    {
+        "OCC_TITLE": "Dining Room and Cafeteria Attendants and Bartender Helper",
+        "H_MEDIAN": 14
+    },
+    {
+        "OCC_TITLE": "Dishwasher",
+        "H_MEDIAN": 13.98
+    },
+    {
+        "OCC_TITLE": "Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop",
+        "H_MEDIAN": 13.33
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Food Preparation and Serving Related Worker",
+        "H_MEDIAN": 14.83
+    },
+    {
+        "OCC_TITLE": "Food Preparation and Serving Related Workers, All Other",
+        "H_MEDIAN": 14.83
+    },
+    {
+        "OCC_TITLE": "Building and Grounds Cleaning and Maintenance Occupation",
+        "H_MEDIAN": 16.28
+    },
+    {
+        "OCC_TITLE": "Supervisors of Building and Grounds Cleaning and Maintenance Worker",
+        "H_MEDIAN": 22.71
+    },
+    {
+        "OCC_TITLE": "First-Line Supervisors of Building and Grounds Cleaning and Maintenance Worker",
+        "H_MEDIAN": 22.71
+    },
+    {
+        "OCC_TITLE": "First-Line Supervisors of Housekeeping and Janitorial Worker",
+        "H_MEDIAN": 21.36
+    },
+    {
+        "OCC_TITLE": "First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Worker",
+        "H_MEDIAN": 24.43
+    },
+    {
+        "OCC_TITLE": "Building Cleaning and Pest Control Worker",
+        "H_MEDIAN": 15.19
+    },
+    {
+        "OCC_TITLE": "Building Cleaning Worker",
+        "H_MEDIAN": 15.07
+    },
+    {
+        "OCC_TITLE": "Janitors and Cleaners, Except Maids and Housekeeping Cleaner",
+        "H_MEDIAN": 15.38
+    },
+    {
+        "OCC_TITLE": "Maids and Housekeeping Cleaner",
+        "H_MEDIAN": 14.4
+    },
+    {
+        "OCC_TITLE": "Building Cleaning Workers, All Other",
+        "H_MEDIAN": 17.88
+    },
+    {
+        "OCC_TITLE": "Pest Control Worker",
+        "H_MEDIAN": 18.42
+    },
+    {
+        "OCC_TITLE": "Grounds Maintenance Worker",
+        "H_MEDIAN": 17.39
+    },
+    {
+        "OCC_TITLE": "Landscaping and Groundskeeping Worker",
+        "H_MEDIAN": 17.26
+    },
+    {
+        "OCC_TITLE": "Pesticide Handlers, Sprayers, and Applicators, Vegetation",
+        "H_MEDIAN": 19.93
+    },
+    {
+        "OCC_TITLE": "Tree Trimmers and Pruner",
+        "H_MEDIAN": 22.64
+    },
+    {
+        "OCC_TITLE": "Grounds Maintenance Workers, All Other",
+        "H_MEDIAN": 19
+    },
+    {
+        "OCC_TITLE": "Personal Care and Service Occupation",
+        "H_MEDIAN": 15.07
+    },
+    {
+        "OCC_TITLE": "Supervisors of Personal Care and Service Worker",
+        "H_MEDIAN": 21.8
+    },
+    {
+        "OCC_TITLE": "First-Line Supervisors of Entertainment and Recreation Worker",
+        "H_MEDIAN": 22.47
+    },
+    {
+        "OCC_TITLE": "First-Line Supervisors of Gambling Services Worker",
+        "H_MEDIAN": 27.06
+    },
+    {
+        "OCC_TITLE": "First-Line Supervisors of Entertainment and Recreation Workers, Except Gambling Service",
+        "H_MEDIAN": 21.47
+    },
+    {
+        "OCC_TITLE": "First-Line Supervisors of Personal Service Worker",
+        "H_MEDIAN": 21
+    },
+    {
+        "OCC_TITLE": "Animal Care and Service Worker",
+        "H_MEDIAN": 14.32
+    },
+    {
+        "OCC_TITLE": "Animal Trainer",
+        "H_MEDIAN": 17.13
+    },
+    {
+        "OCC_TITLE": "Animal Caretaker",
+        "H_MEDIAN": 14.2
+    },
+    {
+        "OCC_TITLE": "Entertainment Attendants and Related Worker",
+        "H_MEDIAN": 13.49
+    },
+    {
+        "OCC_TITLE": "Gambling Services Worker",
+        "H_MEDIAN": 14
+    },
+    {
+        "OCC_TITLE": "Gambling Dealer",
+        "H_MEDIAN": 14
+    },
+    {
+        "OCC_TITLE": "Gambling and Sports Book Writers and Runner",
+        "H_MEDIAN": 13.91
+    },
+    {
+        "OCC_TITLE": "Gambling Service Workers, All Other",
+        "H_MEDIAN": 14.59
+    },
+    {
+        "OCC_TITLE": "Motion Picture Projectionist",
+        "H_MEDIAN": 16.04
+    },
+    {
+        "OCC_TITLE": "Ushers, Lobby Attendants, and Ticket Taker",
+        "H_MEDIAN": 13.29
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Entertainment Attendants and Related Worker",
+        "H_MEDIAN": 13.43
+    },
+    {
+        "OCC_TITLE": "Amusement and Recreation Attendant",
+        "H_MEDIAN": 13.36
+    },
+    {
+        "OCC_TITLE": "Costume Attendant",
+        "H_MEDIAN": 23.3
+    },
+    {
+        "OCC_TITLE": "Locker Room, Coatroom, and Dressing Room Attendant",
+        "H_MEDIAN": 14.53
+    },
+    {
+        "OCC_TITLE": "Entertainment Attendants and Related Workers, All Other",
+        "H_MEDIAN": 13.11
+    },
+    {
+        "OCC_TITLE": "Funeral Service Worker",
+        "H_MEDIAN": 17.94
+    },
+    {
+        "OCC_TITLE": "Embalmers and Crematory Operator",
+        "H_MEDIAN": 22.25
+    },
+    {
+        "OCC_TITLE": "Embalmer",
+        "H_MEDIAN": 23.99
+    },
+    {
+        "OCC_TITLE": "Crematory Operator",
+        "H_MEDIAN": 19.4
+    },
+    {
+        "OCC_TITLE": "Funeral Attendant",
+        "H_MEDIAN": 14.98
+    },
+    {
+        "OCC_TITLE": "Morticians, Undertakers, and Funeral Arranger",
+        "H_MEDIAN": 24.79
+    },
+    {
+        "OCC_TITLE": "Personal Appearance Worker",
+        "H_MEDIAN": 16
+    },
+    {
+        "OCC_TITLE": "Barbers, Hairdressers, Hairstylists and Cosmetologist",
+        "H_MEDIAN": 16.06
+    },
+    {
+        "OCC_TITLE": "Barber",
+        "H_MEDIAN": 16.82
+    },
+    {
+        "OCC_TITLE": "Hairdressers, Hairstylists, and Cosmetologist",
+        "H_MEDIAN": 16.01
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Personal Appearance Worker",
+        "H_MEDIAN": 15.87
+    },
+    {
+        "OCC_TITLE": "Makeup Artists, Theatrical and Performance",
+        "H_MEDIAN": 46.33
+    },
+    {
+        "OCC_TITLE": "Manicurists and Pedicurist",
+        "H_MEDIAN": 14.97
+    },
+    {
+        "OCC_TITLE": "Shampooer",
+        "H_MEDIAN": 13.4
+    },
+    {
+        "OCC_TITLE": "Skincare Specialist",
+        "H_MEDIAN": 18.3
+    },
+    {
+        "OCC_TITLE": "Baggage Porters, Bellhops, and Concierge",
+        "H_MEDIAN": 16.29
+    },
+    {
+        "OCC_TITLE": "Baggage Porters and Bellhop",
+        "H_MEDIAN": 15.15
+    },
+    {
+        "OCC_TITLE": "Concierge",
+        "H_MEDIAN": 17.1
+    },
+    {
+        "OCC_TITLE": "Tour and Travel Guide",
+        "H_MEDIAN": 16.56
+    },
+    {
+        "OCC_TITLE": "Other Personal Care and Service Worker",
+        "H_MEDIAN": 15.18
+    },
+    {
+        "OCC_TITLE": "Childcare Worker",
+        "H_MEDIAN": 13.71
+    },
+    {
+        "OCC_TITLE": "Recreation and Fitness Worker",
+        "H_MEDIAN": 16.91
+    },
+    {
+        "OCC_TITLE": "Exercise Trainers and Group Fitness Instructor",
+        "H_MEDIAN": 21.82
+    },
+    {
+        "OCC_TITLE": "Recreation Worker",
+        "H_MEDIAN": 15.23
+    },
+    {
+        "OCC_TITLE": "Residential Advisor",
+        "H_MEDIAN": 17.17
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Personal Care and Service Worker",
+        "H_MEDIAN": 16.67
+    },
+    {
+        "OCC_TITLE": "Personal Care and Service Workers, All Other",
+        "H_MEDIAN": 16.67
+    },
+    {
+        "OCC_TITLE": "Sales and Related Occupation",
+        "H_MEDIAN": 16.96
+    },
+    {
+        "OCC_TITLE": "Supervisors of Sales Worker",
+        "H_MEDIAN": 22.98
+    },
+    {
+        "OCC_TITLE": "First-Line Supervisors of Sales Worker",
+        "H_MEDIAN": 22.98
+    },
+    {
+        "OCC_TITLE": "First-Line Supervisors of Retail Sales Worker",
+        "H_MEDIAN": 21.75
+    },
+    {
+        "OCC_TITLE": "First-Line Supervisors of Non-Retail Sales Worker",
+        "H_MEDIAN": 39.83
+    },
+    {
+        "OCC_TITLE": "Retail Sales Worker",
+        "H_MEDIAN": 14.26
+    },
+    {
+        "OCC_TITLE": "Cashier",
+        "H_MEDIAN": 13.58
+    },
+    {
+        "OCC_TITLE": "Gambling Change Persons and Booth Cashier",
+        "H_MEDIAN": 14.43
+    },
+    {
+        "OCC_TITLE": "Counter and Rental Clerks and Parts Salesperson",
+        "H_MEDIAN": 17.22
+    },
+    {
+        "OCC_TITLE": "Counter and Rental Clerk",
+        "H_MEDIAN": 17.23
+    },
+    {
+        "OCC_TITLE": "Parts Salesperson",
+        "H_MEDIAN": 17.21
+    },
+    {
+        "OCC_TITLE": "Retail Salesperson",
+        "H_MEDIAN": 14.71
+    },
+    {
+        "OCC_TITLE": "Sales Representatives, Service",
+        "H_MEDIAN": 29.42
+    },
+    {
+        "OCC_TITLE": "Advertising Sales Agent",
+        "H_MEDIAN": 28.1
+    },
+    {
+        "OCC_TITLE": "Insurance Sales Agent",
+        "H_MEDIAN": 27.82
+    },
+    {
+        "OCC_TITLE": "Securities, Commodities, and Financial Services Sales Agent",
+        "H_MEDIAN": 32.44
+    },
+    {
+        "OCC_TITLE": "Travel Agent",
+        "H_MEDIAN": 22.31
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Sales Representatives, Service",
+        "H_MEDIAN": 30
+    },
+    {
+        "OCC_TITLE": "Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",
+        "H_MEDIAN": 30
+    },
+    {
+        "OCC_TITLE": "Sales Representatives, Wholesale and Manufacturing",
+        "H_MEDIAN": 32.57
+    },
+    {
+        "OCC_TITLE": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Product",
+        "H_MEDIAN": 46.97
+    },
+    {
+        "OCC_TITLE": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Product",
+        "H_MEDIAN": 30.4
+    },
+    {
+        "OCC_TITLE": "Other Sales and Related Worker",
+        "H_MEDIAN": 22.1
+    },
+    {
+        "OCC_TITLE": "Models, Demonstrators, and Product Promoter",
+        "H_MEDIAN": 16.75
+    },
+    {
+        "OCC_TITLE": "Demonstrators and Product Promoter",
+        "H_MEDIAN": 16.71
+    },
+    {
+        "OCC_TITLE": "Model",
+        "H_MEDIAN": 20.73
+    },
+    {
+        "OCC_TITLE": "Real Estate Brokers and Sales Agent",
+        "H_MEDIAN": 25.02
+    },
+    {
+        "OCC_TITLE": "Real Estate Broker",
+        "H_MEDIAN": 29.9
+    },
+    {
+        "OCC_TITLE": "Real Estate Sales Agent",
+        "H_MEDIAN": 24.03
+    },
+    {
+        "OCC_TITLE": "Sales Engineer",
+        "H_MEDIAN": 52.18
+    },
+    {
+        "OCC_TITLE": "Telemarketer",
+        "H_MEDIAN": 14.92
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Sales and Related Worker",
+        "H_MEDIAN": 20.3
+    },
+    {
+        "OCC_TITLE": "Door-to-Door Sales Workers, News and Street Vendors, and Related Worker",
+        "H_MEDIAN": 14.95
+    },
+    {
+        "OCC_TITLE": "Sales and Related Workers, All Other",
+        "H_MEDIAN": 21.21
+    },
+    {
+        "OCC_TITLE": "Office and Administrative Support Occupation",
+        "H_MEDIAN": 19.67
+    },
+    {
+        "OCC_TITLE": "Supervisors of Office and Administrative Support Worker",
+        "H_MEDIAN": 29.51
+    },
+    {
+        "OCC_TITLE": "First-Line Supervisors of Office and Administrative Support Worker",
+        "H_MEDIAN": 29.51
+    },
+    {
+        "OCC_TITLE": "Communications Equipment Operator",
+        "H_MEDIAN": 16.84
+    },
+    {
+        "OCC_TITLE": "Switchboard Operators, Including Answering Service",
+        "H_MEDIAN": 16.67
+    },
+    {
+        "OCC_TITLE": "Telephone Operator",
+        "H_MEDIAN": 18.43
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Communications Equipment Operator",
+        "H_MEDIAN": 22.2
+    },
+    {
+        "OCC_TITLE": "Communications Equipment Operators, All Other",
+        "H_MEDIAN": 22.2
+    },
+    {
+        "OCC_TITLE": "Financial Clerk",
+        "H_MEDIAN": 21
+    },
+    {
+        "OCC_TITLE": "Bill and Account Collector",
+        "H_MEDIAN": 18.98
+    },
+    {
+        "OCC_TITLE": "Billing and Posting Clerk",
+        "H_MEDIAN": 20.58
+    },
+    {
+        "OCC_TITLE": "Bookkeeping, Accounting, and Auditing Clerk",
+        "H_MEDIAN": 22.05
+    },
+    {
+        "OCC_TITLE": "Gambling Cage Worker",
+        "H_MEDIAN": 15.25
+    },
+    {
+        "OCC_TITLE": "Payroll and Timekeeping Clerk",
+        "H_MEDIAN": 23.86
+    },
+    {
+        "OCC_TITLE": "Procurement Clerk",
+        "H_MEDIAN": 21.75
+    },
+    {
+        "OCC_TITLE": "Teller",
+        "H_MEDIAN": 17.49
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Financial Clerk",
+        "H_MEDIAN": 22.66
+    },
+    {
+        "OCC_TITLE": "Financial Clerks, All Other",
+        "H_MEDIAN": 22.66
+    },
+    {
+        "OCC_TITLE": "Information and Record Clerk",
+        "H_MEDIAN": 18
+    },
+    {
+        "OCC_TITLE": "Brokerage Clerk",
+        "H_MEDIAN": 26.29
+    },
+    {
+        "OCC_TITLE": "Correspondence Clerk",
+        "H_MEDIAN": 18.61
+    },
+    {
+        "OCC_TITLE": "Court, Municipal, and License Clerk",
+        "H_MEDIAN": 21.22
+    },
+    {
+        "OCC_TITLE": "Credit Authorizers, Checkers, and Clerk",
+        "H_MEDIAN": 21.55
+    },
+    {
+        "OCC_TITLE": "Customer Service Representative",
+        "H_MEDIAN": 18.16
+    },
+    {
+        "OCC_TITLE": "Eligibility Interviewers, Government Program",
+        "H_MEDIAN": 23.67
+    },
+    {
+        "OCC_TITLE": "File Clerk",
+        "H_MEDIAN": 17.93
+    },
+    {
+        "OCC_TITLE": "Hotel, Motel, and Resort Desk Clerk",
+        "H_MEDIAN": 13.9
+    },
+    {
+        "OCC_TITLE": "Interviewers, Except Eligibility and Loan",
+        "H_MEDIAN": 18.61
+    },
+    {
+        "OCC_TITLE": "Library Assistants, Clerical",
+        "H_MEDIAN": 14.98
+    },
+    {
+        "OCC_TITLE": "Loan Interviewers and Clerk",
+        "H_MEDIAN": 22.35
+    },
+    {
+        "OCC_TITLE": "New Accounts Clerk",
+        "H_MEDIAN": 19.63
+    },
+    {
+        "OCC_TITLE": "Order Clerk",
+        "H_MEDIAN": 18.3
+    },
+    {
+        "OCC_TITLE": "Human Resources Assistants, Except Payroll and Timekeeping",
+        "H_MEDIAN": 22.08
+    },
+    {
+        "OCC_TITLE": "Receptionists and Information Clerk",
+        "H_MEDIAN": 16.33
+    },
+    {
+        "OCC_TITLE": "Reservation and Transportation Ticket Agents and Travel Clerk",
+        "H_MEDIAN": 18.83
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Information and Record Clerk",
+        "H_MEDIAN": 21.5
+    },
+    {
+        "OCC_TITLE": "Information and Record Clerks, All Other",
+        "H_MEDIAN": 21.5
+    },
+    {
+        "OCC_TITLE": "Material Recording, Scheduling, Dispatching, and Distributing Worker",
+        "H_MEDIAN": 21.43
+    },
+    {
+        "OCC_TITLE": "Cargo and Freight Agent",
+        "H_MEDIAN": 22.53
+    },
+    {
+        "OCC_TITLE": "Couriers and Messenger",
+        "H_MEDIAN": 16.96
+    },
+    {
+        "OCC_TITLE": "Dispatcher",
+        "H_MEDIAN": 21.9
+    },
+    {
+        "OCC_TITLE": "Public Safety Telecommunicator",
+        "H_MEDIAN": 22.55
+    },
+    {
+        "OCC_TITLE": "Dispatchers, Except Police, Fire, and Ambulance",
+        "H_MEDIAN": 21.55
+    },
+    {
+        "OCC_TITLE": "Meter Readers, Utilitie",
+        "H_MEDIAN": 21.52
+    },
+    {
+        "OCC_TITLE": "Postal Service Worker",
+        "H_MEDIAN": 25.81
+    },
+    {
+        "OCC_TITLE": "Postal Service Clerk",
+        "H_MEDIAN": 27.02
+    },
+    {
+        "OCC_TITLE": "Postal Service Mail Carrier",
+        "H_MEDIAN": 26.08
+    },
+    {
+        "OCC_TITLE": "Postal Service Mail Sorters, Processors, and Processing Machine Operator",
+        "H_MEDIAN": 23.62
+    },
+    {
+        "OCC_TITLE": "Production, Planning, and Expediting Clerk",
+        "H_MEDIAN": 24.34
+    },
+    {
+        "OCC_TITLE": "Shipping, Receiving, and Inventory Clerk",
+        "H_MEDIAN": 18.15
+    },
+    {
+        "OCC_TITLE": "Weighers, Measurers, Checkers, and Samplers, Recordkeeping",
+        "H_MEDIAN": 19.21
+    },
+    {
+        "OCC_TITLE": "Secretaries and Administrative Assistant",
+        "H_MEDIAN": 21.19
+    },
+    {
+        "OCC_TITLE": "Executive Secretaries and Executive Administrative Assistant",
+        "H_MEDIAN": 31.72
+    },
+    {
+        "OCC_TITLE": "Legal Secretaries and Administrative Assistant",
+        "H_MEDIAN": 23.45
+    },
+    {
+        "OCC_TITLE": "Medical Secretaries and Administrative Assistant",
+        "H_MEDIAN": 18.51
+    },
+    {
+        "OCC_TITLE": "Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",
+        "H_MEDIAN": 19.71
+    },
+    {
+        "OCC_TITLE": "Other Office and Administrative Support Worker",
+        "H_MEDIAN": 18.41
+    },
+    {
+        "OCC_TITLE": "Data Entry and Information Processing Worker",
+        "H_MEDIAN": 17.92
+    },
+    {
+        "OCC_TITLE": "Data Entry Keyer",
+        "H_MEDIAN": 17.4
+    },
+    {
+        "OCC_TITLE": "Word Processors and Typist",
+        "H_MEDIAN": 21.31
+    },
+    {
+        "OCC_TITLE": "Desktop Publisher",
+        "H_MEDIAN": 23.04
+    },
+    {
+        "OCC_TITLE": "Insurance Claims and Policy Processing Clerk",
+        "H_MEDIAN": 22.15
+    },
+    {
+        "OCC_TITLE": "Mail Clerks and Mail Machine Operators, Except Postal Service",
+        "H_MEDIAN": 16.86
+    },
+    {
+        "OCC_TITLE": "Office Clerks, General",
+        "H_MEDIAN": 18.29
+    },
+    {
+        "OCC_TITLE": "Office Machine Operators, Except Computer",
+        "H_MEDIAN": 17.65
+    },
+    {
+        "OCC_TITLE": "Proofreaders and Copy Marker",
+        "H_MEDIAN": 21.83
+    },
+    {
+        "OCC_TITLE": "Statistical Assistant",
+        "H_MEDIAN": 23.5
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Office and Administrative Support Worker",
+        "H_MEDIAN": 18.59
+    },
+    {
+        "OCC_TITLE": "Office and Administrative Support Workers, All Other",
+        "H_MEDIAN": 18.59
+    },
+    {
+        "OCC_TITLE": "Farming, Fishing, and Forestry Occupation",
+        "H_MEDIAN": 16.33
+    },
+    {
+        "OCC_TITLE": "Supervisors of Farming, Fishing, and Forestry Worker",
+        "H_MEDIAN": 26.2
+    },
+    {
+        "OCC_TITLE": "First-Line Supervisors of Farming, Fishing, and Forestry Worker",
+        "H_MEDIAN": 26.2
+    },
+    {
+        "OCC_TITLE": "Agricultural Worker",
+        "H_MEDIAN": 16.06
+    },
+    {
+        "OCC_TITLE": "Agricultural Inspector",
+        "H_MEDIAN": 21.5
+    },
+    {
+        "OCC_TITLE": "Animal Breeder",
+        "H_MEDIAN": 21.79
+    },
+    {
+        "OCC_TITLE": "Graders and Sorters, Agricultural Product",
+        "H_MEDIAN": 15.65
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Agricultural Worker",
+        "H_MEDIAN": 16
+    },
+    {
+        "OCC_TITLE": "Agricultural Equipment Operator",
+        "H_MEDIAN": 18.16
+    },
+    {
+        "OCC_TITLE": "Farmworkers and Laborers, Crop, Nursery, and Greenhouse",
+        "H_MEDIAN": 15.87
+    },
+    {
+        "OCC_TITLE": "Farmworkers, Farm, Ranch, and Aquacultural Animal",
+        "H_MEDIAN": 16.42
+    },
+    {
+        "OCC_TITLE": "Agricultural Workers, All Other",
+        "H_MEDIAN": 17.17
+    },
+    {
+        "OCC_TITLE": "Forest, Conservation, and Logging Worker",
+        "H_MEDIAN": 21.66
+    },
+    {
+        "OCC_TITLE": "Forest and Conservation Worker",
+        "H_MEDIAN": 15.51
+    },
+    {
+        "OCC_TITLE": "Logging Worker",
+        "H_MEDIAN": 22.4
+    },
+    {
+        "OCC_TITLE": "Faller",
+        "H_MEDIAN": 23.64
+    },
+    {
+        "OCC_TITLE": "Logging Equipment Operator",
+        "H_MEDIAN": 22.31
+    },
+    {
+        "OCC_TITLE": "Log Graders and Scaler",
+        "H_MEDIAN": 20.37
+    },
+    {
+        "OCC_TITLE": "Logging Workers, All Other",
+        "H_MEDIAN": 22.65
+    },
+    {
+        "OCC_TITLE": "Construction and Extraction Occupation",
+        "H_MEDIAN": 24.31
+    },
+    {
+        "OCC_TITLE": "Supervisors of Construction and Extraction Worker",
+        "H_MEDIAN": 35.62
+    },
+    {
+        "OCC_TITLE": "First-Line Supervisors of Construction Trades and Extraction Worker",
+        "H_MEDIAN": 35.62
+    },
+    {
+        "OCC_TITLE": "Construction Trades Worker",
+        "H_MEDIAN": 23.72
+    },
+    {
+        "OCC_TITLE": "Boilermaker",
+        "H_MEDIAN": 32.17
+    },
+    {
+        "OCC_TITLE": "Brickmasons, Blockmasons, and Stonemason",
+        "H_MEDIAN": 28.03
+    },
+    {
+        "OCC_TITLE": "Brickmasons and Blockmason",
+        "H_MEDIAN": 28.37
+    },
+    {
+        "OCC_TITLE": "Stonemason",
+        "H_MEDIAN": 24.14
+    },
+    {
+        "OCC_TITLE": "Carpenter",
+        "H_MEDIAN": 24.71
+    },
+    {
+        "OCC_TITLE": "Carpet, Floor, and Tile Installers and Finisher",
+        "H_MEDIAN": 23.03
+    },
+    {
+        "OCC_TITLE": "Carpet Installer",
+        "H_MEDIAN": 21.75
+    },
+    {
+        "OCC_TITLE": "Floor Layers, Except Carpet, Wood, and Hard Tile",
+        "H_MEDIAN": 23.5
+    },
+    {
+        "OCC_TITLE": "Floor Sanders and Finisher",
+        "H_MEDIAN": 22.14
+    },
+    {
+        "OCC_TITLE": "Tile and Stone Setter",
+        "H_MEDIAN": 23.24
+    },
+    {
+        "OCC_TITLE": "Cement Masons, Concrete Finishers, and Terrazzo Worker",
+        "H_MEDIAN": 23.24
+    },
+    {
+        "OCC_TITLE": "Cement Masons and Concrete Finisher",
+        "H_MEDIAN": 23.22
+    },
+    {
+        "OCC_TITLE": "Terrazzo Workers and Finisher",
+        "H_MEDIAN": 25.16
+    },
+    {
+        "OCC_TITLE": "Construction Laborer",
+        "H_MEDIAN": 19.59
+    },
+    {
+        "OCC_TITLE": "Construction Equipment Operator",
+        "H_MEDIAN": 24.54
+    },
+    {
+        "OCC_TITLE": "Paving, Surfacing, and Tamping Equipment Operator",
+        "H_MEDIAN": 22.73
+    },
+    {
+        "OCC_TITLE": "Pile Driver Operator",
+        "H_MEDIAN": 30.92
+    },
+    {
+        "OCC_TITLE": "Operating Engineers and Other Construction Equipment Operator",
+        "H_MEDIAN": 24.73
+    },
+    {
+        "OCC_TITLE": "Drywall Installers, Ceiling Tile Installers, and Taper",
+        "H_MEDIAN": 24.6
+    },
+    {
+        "OCC_TITLE": "Drywall and Ceiling Tile Installer",
+        "H_MEDIAN": 24.25
+    },
+    {
+        "OCC_TITLE": "Taper",
+        "H_MEDIAN": 29.98
+    },
+    {
+        "OCC_TITLE": "Electrician",
+        "H_MEDIAN": 28.96
+    },
+    {
+        "OCC_TITLE": "Glazier",
+        "H_MEDIAN": 23.42
+    },
+    {
+        "OCC_TITLE": "Insulation Worker",
+        "H_MEDIAN": 23.07
+    },
+    {
+        "OCC_TITLE": "Insulation Workers, Floor, Ceiling, and Wall",
+        "H_MEDIAN": 21.82
+    },
+    {
+        "OCC_TITLE": "Insulation Workers, Mechanical",
+        "H_MEDIAN": 24.32
+    },
+    {
+        "OCC_TITLE": "Painters and Paperhanger",
+        "H_MEDIAN": 22.16
+    },
+    {
+        "OCC_TITLE": "Painters, Construction and Maintenance",
+        "H_MEDIAN": 22.16
+    },
+    {
+        "OCC_TITLE": "Paperhanger",
+        "H_MEDIAN": 21.6
+    },
+    {
+        "OCC_TITLE": "Pipelayers, Plumbers, Pipefitters, and Steamfitter",
+        "H_MEDIAN": 28.52
+    },
+    {
+        "OCC_TITLE": "Pipelayer",
+        "H_MEDIAN": 22.11
+    },
+    {
+        "OCC_TITLE": "Plumbers, Pipefitters, and Steamfitter",
+        "H_MEDIAN": 28.89
+    },
+    {
+        "OCC_TITLE": "Plasterers and Stucco Mason",
+        "H_MEDIAN": 23.91
+    },
+    {
+        "OCC_TITLE": "Reinforcing Iron and Rebar Worker",
+        "H_MEDIAN": 24.55
+    },
+    {
+        "OCC_TITLE": "Roofer",
+        "H_MEDIAN": 23.04
+    },
+    {
+        "OCC_TITLE": "Sheet Metal Worker",
+        "H_MEDIAN": 26.61
+    },
+    {
+        "OCC_TITLE": "Structural Iron and Steel Worker",
+        "H_MEDIAN": 29.09
+    },
+    {
+        "OCC_TITLE": "Solar Photovoltaic Installer",
+        "H_MEDIAN": 21.75
+    },
+    {
+        "OCC_TITLE": "Helpers, Construction Trade",
+        "H_MEDIAN": 17.87
+    },
+    {
+        "OCC_TITLE": "Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setter",
+        "H_MEDIAN": 18.96
+    },
+    {
+        "OCC_TITLE": "Helpers--Carpenter",
+        "H_MEDIAN": 18.03
+    },
+    {
+        "OCC_TITLE": "Helpers--Electrician",
+        "H_MEDIAN": 17.82
+    },
+    {
+        "OCC_TITLE": "Helpers--Painters, Paperhangers, Plasterers, and Stucco Mason",
+        "H_MEDIAN": 17.35
+    },
+    {
+        "OCC_TITLE": "Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitter",
+        "H_MEDIAN": 17.47
+    },
+    {
+        "OCC_TITLE": "Helpers--Roofer",
+        "H_MEDIAN": 17.8
+    },
+    {
+        "OCC_TITLE": "Helpers, Construction Trades, All Other",
+        "H_MEDIAN": 18.18
+    },
+    {
+        "OCC_TITLE": "Other Construction and Related Worker",
+        "H_MEDIAN": 23.88
+    },
+    {
+        "OCC_TITLE": "Construction and Building Inspector",
+        "H_MEDIAN": 31
+    },
+    {
+        "OCC_TITLE": "Elevator and Escalator Installers and Repairer",
+        "H_MEDIAN": 47.6
+    },
+    {
+        "OCC_TITLE": "Fence Erector",
+        "H_MEDIAN": 19.16
+    },
+    {
+        "OCC_TITLE": "Hazardous Materials Removal Worker",
+        "H_MEDIAN": 22.45
+    },
+    {
+        "OCC_TITLE": "Highway Maintenance Worker",
+        "H_MEDIAN": 21.6
+    },
+    {
+        "OCC_TITLE": "Rail-Track Laying and Maintenance Equipment Operator",
+        "H_MEDIAN": 30.4
+    },
+    {
+        "OCC_TITLE": "Septic Tank Servicers and Sewer Pipe Cleaner",
+        "H_MEDIAN": 21.93
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Construction and Related Worker",
+        "H_MEDIAN": 21.58
+    },
+    {
+        "OCC_TITLE": "Extraction Worker",
+        "H_MEDIAN": 23.72
+    },
+    {
+        "OCC_TITLE": "Derrick, Rotary Drill, and Service Unit Operators, Oil and Ga",
+        "H_MEDIAN": 24.54
+    },
+    {
+        "OCC_TITLE": "Derrick Operators, Oil and Ga",
+        "H_MEDIAN": 24.62
+    },
+    {
+        "OCC_TITLE": "Rotary Drill Operators, Oil and Ga",
+        "H_MEDIAN": 26.57
+    },
+    {
+        "OCC_TITLE": "Service Unit Operators, Oil and Ga",
+        "H_MEDIAN": 24.11
+    },
+    {
+        "OCC_TITLE": "Surface Mining Machine Operators and Earth Driller",
+        "H_MEDIAN": 23.84
+    },
+    {
+        "OCC_TITLE": "Excavating and Loading Machine and Dragline Operators, Surface Mining",
+        "H_MEDIAN": 23.24
+    },
+    {
+        "OCC_TITLE": "Earth Drillers, Except Oil and Ga",
+        "H_MEDIAN": 24.88
+    },
+    {
+        "OCC_TITLE": "Explosives Workers, Ordnance Handling Experts, and Blaster",
+        "H_MEDIAN": 27.24
+    },
+    {
+        "OCC_TITLE": "Underground Mining Machine Operator",
+        "H_MEDIAN": 29.17
+    },
+    {
+        "OCC_TITLE": "Continuous Mining Machine Operator",
+        "H_MEDIAN": 27.58
+    },
+    {
+        "OCC_TITLE": "Roof Bolters, Mining",
+        "H_MEDIAN": 28.95
+    },
+    {
+        "OCC_TITLE": "Loading and Moving Machine Operators, Underground Mining",
+        "H_MEDIAN": 30.73
+    },
+    {
+        "OCC_TITLE": "Underground Mining Machine Operators, All Other",
+        "H_MEDIAN": 30.86
+    },
+    {
+        "OCC_TITLE": "Rock Splitters, Quarry",
+        "H_MEDIAN": 22.12
+    },
+    {
+        "OCC_TITLE": "Roustabouts, Oil and Ga",
+        "H_MEDIAN": 20.96
+    },
+    {
+        "OCC_TITLE": "Helpers--Extraction Worker",
+        "H_MEDIAN": 20.73
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Extraction Worker",
+        "H_MEDIAN": 24.81
+    },
+    {
+        "OCC_TITLE": "Extraction Workers, All Other",
+        "H_MEDIAN": 24.81
+    },
+    {
+        "OCC_TITLE": "Installation, Maintenance, and Repair Occupation",
+        "H_MEDIAN": 24.08
+    },
+    {
+        "OCC_TITLE": "Supervisors of Installation, Maintenance, and Repair Worker",
+        "H_MEDIAN": 35.16
+    },
+    {
+        "OCC_TITLE": "First-Line Supervisors of Mechanics, Installers, and Repairer",
+        "H_MEDIAN": 35.16
+    },
+    {
+        "OCC_TITLE": "Electrical and Electronic Equipment Mechanics, Installers, and Repairer",
+        "H_MEDIAN": 27.38
+    },
+    {
+        "OCC_TITLE": "Computer, Automated Teller, and Office Machine Repairer",
+        "H_MEDIAN": 21.59
+    },
+    {
+        "OCC_TITLE": "Radio and Telecommunications Equipment Installers and Repairer",
+        "H_MEDIAN": 28.82
+    },
+    {
+        "OCC_TITLE": "Radio, Cellular, and Tower Equipment Installers and Repairer",
+        "H_MEDIAN": 28.71
+    },
+    {
+        "OCC_TITLE": "Telecommunications Equipment Installers and Repairers, Except Line Installer",
+        "H_MEDIAN": 28.83
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Electrical and Electronic Equipment Mechanics, Installers, and Repairer",
+        "H_MEDIAN": 28.5
+    },
+    {
+        "OCC_TITLE": "Avionics Technician",
+        "H_MEDIAN": 36.27
+    },
+    {
+        "OCC_TITLE": "Electric Motor, Power Tool, and Related Repairer",
+        "H_MEDIAN": 23.2
+    },
+    {
+        "OCC_TITLE": "Electrical and Electronics Installers and Repairers, Transportation Equipment",
+        "H_MEDIAN": 35.4
+    },
+    {
+        "OCC_TITLE": "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+        "H_MEDIAN": 30.78
+    },
+    {
+        "OCC_TITLE": "Electrical and Electronics Repairers, Powerhouse, Substation, and Relay",
+        "H_MEDIAN": 45.06
+    },
+    {
+        "OCC_TITLE": "Electronic Equipment Installers and Repairers, Motor Vehicle",
+        "H_MEDIAN": 20
+    },
+    {
+        "OCC_TITLE": "Audiovisual Equipment Installers and Repairer",
+        "H_MEDIAN": 21.61
+    },
+    {
+        "OCC_TITLE": "Security and Fire Alarm Systems Installer",
+        "H_MEDIAN": 24.1
+    },
+    {
+        "OCC_TITLE": "Vehicle and Mobile Equipment Mechanics, Installers, and Repairer",
+        "H_MEDIAN": 23.38
+    },
+    {
+        "OCC_TITLE": "Aircraft Mechanics and Service Technician",
+        "H_MEDIAN": 33.66
+    },
+    {
+        "OCC_TITLE": "Automotive Technicians and Repairer",
+        "H_MEDIAN": 22.61
+    },
+    {
+        "OCC_TITLE": "Automotive Body and Related Repairer",
+        "H_MEDIAN": 22.92
+    },
+    {
+        "OCC_TITLE": "Automotive Glass Installers and Repairer",
+        "H_MEDIAN": 21.01
+    },
+    {
+        "OCC_TITLE": "Automotive Service Technicians and Mechanic",
+        "H_MEDIAN": 22.58
+    },
+    {
+        "OCC_TITLE": "Bus and Truck Mechanics and Diesel Engine Specialist",
+        "H_MEDIAN": 26.14
+    },
+    {
+        "OCC_TITLE": "Heavy Vehicle and Mobile Equipment Service Technicians and Mechanic",
+        "H_MEDIAN": 28.06
+    },
+    {
+        "OCC_TITLE": "Farm Equipment Mechanics and Service Technician",
+        "H_MEDIAN": 23.08
+    },
+    {
+        "OCC_TITLE": "Mobile Heavy Equipment Mechanics, Except Engine",
+        "H_MEDIAN": 28.58
+    },
+    {
+        "OCC_TITLE": "Rail Car Repairer",
+        "H_MEDIAN": 30.05
+    },
+    {
+        "OCC_TITLE": "Small Engine Mechanic",
+        "H_MEDIAN": 21.19
+    },
+    {
+        "OCC_TITLE": "Motorboat Mechanics and Service Technician",
+        "H_MEDIAN": 23.21
+    },
+    {
+        "OCC_TITLE": "Motorcycle Mechanic",
+        "H_MEDIAN": 20.85
+    },
+    {
+        "OCC_TITLE": "Outdoor Power Equipment and Other Small Engine Mechanic",
+        "H_MEDIAN": 19.25
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Vehicle and Mobile Equipment Mechanics, Installers, and Repairer",
+        "H_MEDIAN": 16.95
+    },
+    {
+        "OCC_TITLE": "Bicycle Repairer",
+        "H_MEDIAN": 17.43
+    },
+    {
+        "OCC_TITLE": "Recreational Vehicle Service Technician",
+        "H_MEDIAN": 21.65
+    },
+    {
+        "OCC_TITLE": "Tire Repairers and Changer",
+        "H_MEDIAN": 16.46
+    },
+    {
+        "OCC_TITLE": "Other Installation, Maintenance, and Repair Occupation",
+        "H_MEDIAN": 23.25
+    },
+    {
+        "OCC_TITLE": "Control and Valve Installers and Repairer",
+        "H_MEDIAN": 26.82
+    },
+    {
+        "OCC_TITLE": "Mechanical Door Repairer",
+        "H_MEDIAN": 22.6
+    },
+    {
+        "OCC_TITLE": "Control and Valve Installers and Repairers, Except Mechanical Door",
+        "H_MEDIAN": 31.16
+    },
+    {
+        "OCC_TITLE": "Heating, Air Conditioning, and Refrigeration Mechanics and Installer",
+        "H_MEDIAN": 24.71
+    },
+    {
+        "OCC_TITLE": "Home Appliance Repairer",
+        "H_MEDIAN": 22.12
+    },
+    {
+        "OCC_TITLE": "Industrial Machinery Installation, Repair, and Maintenance Worker",
+        "H_MEDIAN": 28.59
+    },
+    {
+        "OCC_TITLE": "Industrial Machinery Mechanic",
+        "H_MEDIAN": 28.76
+    },
+    {
+        "OCC_TITLE": "Maintenance Workers, Machinery",
+        "H_MEDIAN": 25.63
+    },
+    {
+        "OCC_TITLE": "Millwright",
+        "H_MEDIAN": 29.29
+    },
+    {
+        "OCC_TITLE": "Refractory Materials Repairers, Except Brickmason",
+        "H_MEDIAN": 24.3
+    },
+    {
+        "OCC_TITLE": "Line Installers and Repairer",
+        "H_MEDIAN": 36.17
+    },
+    {
+        "OCC_TITLE": "Electrical Power-Line Installers and Repairer",
+        "H_MEDIAN": 39.59
+    },
+    {
+        "OCC_TITLE": "Telecommunications Line Installers and Repairer",
+        "H_MEDIAN": 29.13
+    },
+    {
+        "OCC_TITLE": "Precision Instrument and Equipment Repairer",
+        "H_MEDIAN": 26.96
+    },
+    {
+        "OCC_TITLE": "Camera and Photographic Equipment Repairer",
+        "H_MEDIAN": 21.18
+    },
+    {
+        "OCC_TITLE": "Medical Equipment Repairer",
+        "H_MEDIAN": 27.82
+    },
+    {
+        "OCC_TITLE": "Musical Instrument Repairers and Tuner",
+        "H_MEDIAN": 18.34
+    },
+    {
+        "OCC_TITLE": "Watch and Clock Repairer",
+        "H_MEDIAN": 23.25
+    },
+    {
+        "OCC_TITLE": "Precision Instrument and Equipment Repairers, All Other",
+        "H_MEDIAN": 29.66
+    },
+    {
+        "OCC_TITLE": "Maintenance and Repair Workers, General",
+        "H_MEDIAN": 21.62
+    },
+    {
+        "OCC_TITLE": "Wind Turbine Service Technician",
+        "H_MEDIAN": 27.56
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Installation, Maintenance, and Repair Worker",
+        "H_MEDIAN": 19.6
+    },
+    {
+        "OCC_TITLE": "Coin, Vending, and Amusement Machine Servicers and Repairer",
+        "H_MEDIAN": 19.08
+    },
+    {
+        "OCC_TITLE": "Commercial Diver",
+        "H_MEDIAN": 32.84
+    },
+    {
+        "OCC_TITLE": "Locksmiths and Safe Repairer",
+        "H_MEDIAN": 22.79
+    },
+    {
+        "OCC_TITLE": "Manufactured Building and Mobile Home Installer",
+        "H_MEDIAN": 17.7
+    },
+    {
+        "OCC_TITLE": "Rigger",
+        "H_MEDIAN": 26.29
+    },
+    {
+        "OCC_TITLE": "Signal and Track Switch Repairer",
+        "H_MEDIAN": 39.09
+    },
+    {
+        "OCC_TITLE": "Helpers--Installation, Maintenance, and Repair Worker",
+        "H_MEDIAN": 16.88
+    },
+    {
+        "OCC_TITLE": "Installation, Maintenance, and Repair Workers, All Other",
+        "H_MEDIAN": 21.39
+    },
+    {
+        "OCC_TITLE": "Production Occupation",
+        "H_MEDIAN": 19.19
+    },
+    {
+        "OCC_TITLE": "Supervisors of Production Worker",
+        "H_MEDIAN": 30.53
+    },
+    {
+        "OCC_TITLE": "First-Line Supervisors of Production and Operating Worker",
+        "H_MEDIAN": 30.53
+    },
+    {
+        "OCC_TITLE": "Assemblers and Fabricator",
+        "H_MEDIAN": 18.24
+    },
+    {
+        "OCC_TITLE": "Aircraft Structure, Surfaces, Rigging, and Systems Assembler",
+        "H_MEDIAN": 28.09
+    },
+    {
+        "OCC_TITLE": "Electrical, Electronics, and Electromechanical Assembler",
+        "H_MEDIAN": 18.58
+    },
+    {
+        "OCC_TITLE": "Coil Winders, Tapers, and Finisher",
+        "H_MEDIAN": 20.75
+    },
+    {
+        "OCC_TITLE": "Electrical, Electronic, and Electromechanical Assemblers, Except Coil Winders, Tapers, and Finisher",
+        "H_MEDIAN": 18.55
+    },
+    {
+        "OCC_TITLE": "Engine and Other Machine Assembler",
+        "H_MEDIAN": 24.45
+    },
+    {
+        "OCC_TITLE": "Structural Metal Fabricators and Fitter",
+        "H_MEDIAN": 22.69
+    },
+    {
+        "OCC_TITLE": "Fiberglass Laminators and Fabricator",
+        "H_MEDIAN": 18.32
+    },
+    {
+        "OCC_TITLE": "Timing Device Assemblers and Adjuster",
+        "H_MEDIAN": 20.33
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Assemblers and Fabricator",
+        "H_MEDIAN": 17.93
+    },
+    {
+        "OCC_TITLE": "Food Processing Worker",
+        "H_MEDIAN": 16.98
+    },
+    {
+        "OCC_TITLE": "Baker",
+        "H_MEDIAN": 15.76
+    },
+    {
+        "OCC_TITLE": "Butchers and Other Meat, Poultry, and Fish Processing Worker",
+        "H_MEDIAN": 17.25
+    },
+    {
+        "OCC_TITLE": "Butchers and Meat Cutter",
+        "H_MEDIAN": 17.76
+    },
+    {
+        "OCC_TITLE": "Meat, Poultry, and Fish Cutters and Trimmer",
+        "H_MEDIAN": 16.86
+    },
+    {
+        "OCC_TITLE": "Slaughterers and Meat Packer",
+        "H_MEDIAN": 16.94
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Food Processing Worker",
+        "H_MEDIAN": 17.4
+    },
+    {
+        "OCC_TITLE": "Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tender",
+        "H_MEDIAN": 18.17
+    },
+    {
+        "OCC_TITLE": "Food Batchmaker",
+        "H_MEDIAN": 17.59
+    },
+    {
+        "OCC_TITLE": "Food Cooking Machine Operators and Tender",
+        "H_MEDIAN": 17.64
+    },
+    {
+        "OCC_TITLE": "Food Processing Workers, All Other",
+        "H_MEDIAN": 16.69
+    },
+    {
+        "OCC_TITLE": "Metal Workers and Plastic Worker",
+        "H_MEDIAN": 21.67
+    },
+    {
+        "OCC_TITLE": "Forming Machine Setters, Operators, and Tenders, Metal and Plastic",
+        "H_MEDIAN": 20.45
+    },
+    {
+        "OCC_TITLE": "Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",
+        "H_MEDIAN": 19.22
+    },
+    {
+        "OCC_TITLE": "Forging Machine Setters, Operators, and Tenders, Metal and Plastic",
+        "H_MEDIAN": 22.37
+    },
+    {
+        "OCC_TITLE": "Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",
+        "H_MEDIAN": 22.26
+    },
+    {
+        "OCC_TITLE": "Machine Tool Cutting Setters, Operators, and Tenders, Metal and Plastic",
+        "H_MEDIAN": 19.18
+    },
+    {
+        "OCC_TITLE": "Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",
+        "H_MEDIAN": 18.91
+    },
+    {
+        "OCC_TITLE": "Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
+        "H_MEDIAN": 20.41
+    },
+    {
+        "OCC_TITLE": "Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
+        "H_MEDIAN": 18.71
+    },
+    {
+        "OCC_TITLE": "Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
+        "H_MEDIAN": 22.61
+    },
+    {
+        "OCC_TITLE": "Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",
+        "H_MEDIAN": 22.53
+    },
+    {
+        "OCC_TITLE": "Machinist",
+        "H_MEDIAN": 23.32
+    },
+    {
+        "OCC_TITLE": "Metal Furnace Operators, Tenders, Pourers, and Caster",
+        "H_MEDIAN": 23.61
+    },
+    {
+        "OCC_TITLE": "Metal-Refining Furnace Operators and Tender",
+        "H_MEDIAN": 24.18
+    },
+    {
+        "OCC_TITLE": "Pourers and Casters, Metal",
+        "H_MEDIAN": 21.67
+    },
+    {
+        "OCC_TITLE": "Model Makers and Patternmakers, Metal and Plastic",
+        "H_MEDIAN": 27
+    },
+    {
+        "OCC_TITLE": "Model Makers, Metal and Plastic",
+        "H_MEDIAN": 27.7
+    },
+    {
+        "OCC_TITLE": "Patternmakers, Metal and Plastic",
+        "H_MEDIAN": 26.43
+    },
+    {
+        "OCC_TITLE": "Molders and Molding Machine Setters, Operators, and Tenders, Metal and Plastic",
+        "H_MEDIAN": 17.87
+    },
+    {
+        "OCC_TITLE": "Foundry Mold and Coremaker",
+        "H_MEDIAN": 19.29
+    },
+    {
+        "OCC_TITLE": "Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",
+        "H_MEDIAN": 17.81
+    },
+    {
+        "OCC_TITLE": "Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
+        "H_MEDIAN": 18.85
+    },
+    {
+        "OCC_TITLE": "Tool and Die Maker",
+        "H_MEDIAN": 28.75
+    },
+    {
+        "OCC_TITLE": "Welding, Soldering, and Brazing Worker",
+        "H_MEDIAN": 22.8
+    },
+    {
+        "OCC_TITLE": "Welders, Cutters, Solderers, and Brazer",
+        "H_MEDIAN": 22.86
+    },
+    {
+        "OCC_TITLE": "Welding, Soldering, and Brazing Machine Setters, Operators, and Tender",
+        "H_MEDIAN": 21.6
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Metal Workers and Plastic Worker",
+        "H_MEDIAN": 19
+    },
+    {
+        "OCC_TITLE": "Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",
+        "H_MEDIAN": 19.66
+    },
+    {
+        "OCC_TITLE": "Layout Workers, Metal and Plastic",
+        "H_MEDIAN": 28.01
+    },
+    {
+        "OCC_TITLE": "Plating Machine Setters, Operators, and Tenders, Metal and Plastic",
+        "H_MEDIAN": 18.22
+    },
+    {
+        "OCC_TITLE": "Tool Grinders, Filers, and Sharpener",
+        "H_MEDIAN": 20.16
+    },
+    {
+        "OCC_TITLE": "Metal Workers and Plastic Workers, All Other",
+        "H_MEDIAN": 18.43
+    },
+    {
+        "OCC_TITLE": "Printing Worker",
+        "H_MEDIAN": 18.7
+    },
+    {
+        "OCC_TITLE": "Prepress Technicians and Worker",
+        "H_MEDIAN": 20.94
+    },
+    {
+        "OCC_TITLE": "Printing Press Operator",
+        "H_MEDIAN": 18.92
+    },
+    {
+        "OCC_TITLE": "Print Binding and Finishing Worker",
+        "H_MEDIAN": 17.77
+    },
+    {
+        "OCC_TITLE": "Textile, Apparel, and Furnishings Worker",
+        "H_MEDIAN": 15
+    },
+    {
+        "OCC_TITLE": "Laundry and Dry-Cleaning Worker",
+        "H_MEDIAN": 13.97
+    },
+    {
+        "OCC_TITLE": "Pressers, Textile, Garment, and Related Material",
+        "H_MEDIAN": 14.27
+    },
+    {
+        "OCC_TITLE": "Sewing Machine Operator",
+        "H_MEDIAN": 15.26
+    },
+    {
+        "OCC_TITLE": "Shoe and Leather Worker",
+        "H_MEDIAN": 15.76
+    },
+    {
+        "OCC_TITLE": "Shoe and Leather Workers and Repairer",
+        "H_MEDIAN": 15.61
+    },
+    {
+        "OCC_TITLE": "Shoe Machine Operators and Tender",
+        "H_MEDIAN": 15.89
+    },
+    {
+        "OCC_TITLE": "Tailors, Dressmakers, and Sewer",
+        "H_MEDIAN": 16.27
+    },
+    {
+        "OCC_TITLE": "Sewers, Hand",
+        "H_MEDIAN": 15.16
+    },
+    {
+        "OCC_TITLE": "Tailors, Dressmakers, and Custom Sewer",
+        "H_MEDIAN": 16.48
+    },
+    {
+        "OCC_TITLE": "Textile Machine Setters, Operators, and Tender",
+        "H_MEDIAN": 16.43
+    },
+    {
+        "OCC_TITLE": "Textile Bleaching and Dyeing Machine Operators and Tender",
+        "H_MEDIAN": 15.71
+    },
+    {
+        "OCC_TITLE": "Textile Cutting Machine Setters, Operators, and Tender",
+        "H_MEDIAN": 16.55
+    },
+    {
+        "OCC_TITLE": "Textile Knitting and Weaving Machine Setters, Operators, and Tender",
+        "H_MEDIAN": 17.19
+    },
+    {
+        "OCC_TITLE": "Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tender",
+        "H_MEDIAN": 16.21
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Textile, Apparel, and Furnishings Worker",
+        "H_MEDIAN": 18.49
+    },
+    {
+        "OCC_TITLE": "Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fiber",
+        "H_MEDIAN": 19.16
+    },
+    {
+        "OCC_TITLE": "Fabric and Apparel Patternmaker",
+        "H_MEDIAN": 29
+    },
+    {
+        "OCC_TITLE": "Upholsterer",
+        "H_MEDIAN": 19.04
+    },
+    {
+        "OCC_TITLE": "Textile, Apparel, and Furnishings Workers, All Other",
+        "H_MEDIAN": 15.69
+    },
+    {
+        "OCC_TITLE": "Woodworker",
+        "H_MEDIAN": 18.04
+    },
+    {
+        "OCC_TITLE": "Cabinetmakers and Bench Carpenter",
+        "H_MEDIAN": 18.66
+    },
+    {
+        "OCC_TITLE": "Furniture Finisher",
+        "H_MEDIAN": 18.25
+    },
+    {
+        "OCC_TITLE": "Model Makers and Patternmakers, Wood",
+        "H_MEDIAN": 22.17
+    },
+    {
+        "OCC_TITLE": "Model Makers, Wood",
+        "H_MEDIAN": 22.57
+    },
+    {
+        "OCC_TITLE": "Patternmakers, Wood",
+        "H_MEDIAN": 21.29
+    },
+    {
+        "OCC_TITLE": "Woodworking Machine Setters, Operators, and Tender",
+        "H_MEDIAN": 17.59
+    },
+    {
+        "OCC_TITLE": "Sawing Machine Setters, Operators, and Tenders, Wood",
+        "H_MEDIAN": 17.44
+    },
+    {
+        "OCC_TITLE": "Woodworking Machine Setters, Operators, and Tenders, Except Sawing",
+        "H_MEDIAN": 17.71
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Woodworker",
+        "H_MEDIAN": 17.01
+    },
+    {
+        "OCC_TITLE": "Woodworkers, All Other",
+        "H_MEDIAN": 17.01
+    },
+    {
+        "OCC_TITLE": "Plant and System Operator",
+        "H_MEDIAN": 31.25
+    },
+    {
+        "OCC_TITLE": "Power Plant Operators, Distributors, and Dispatcher",
+        "H_MEDIAN": 46.91
+    },
+    {
+        "OCC_TITLE": "Nuclear Power Reactor Operator",
+        "H_MEDIAN": 55.71
+    },
+    {
+        "OCC_TITLE": "Power Distributors and Dispatcher",
+        "H_MEDIAN": 48.87
+    },
+    {
+        "OCC_TITLE": "Power Plant Operator",
+        "H_MEDIAN": 44.74
+    },
+    {
+        "OCC_TITLE": "Stationary Engineers and Boiler Operator",
+        "H_MEDIAN": 32.27
+    },
+    {
+        "OCC_TITLE": "Water and Wastewater Treatment Plant and System Operator",
+        "H_MEDIAN": 24.81
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Plant and System Operator",
+        "H_MEDIAN": 38.08
+    },
+    {
+        "OCC_TITLE": "Chemical Plant and System Operator",
+        "H_MEDIAN": 39.75
+    },
+    {
+        "OCC_TITLE": "Gas Plant Operator",
+        "H_MEDIAN": 38.2
+    },
+    {
+        "OCC_TITLE": "Petroleum Pump System Operators, Refinery Operators, and Gauger",
+        "H_MEDIAN": 40.91
+    },
+    {
+        "OCC_TITLE": "Plant and System Operators, All Other",
+        "H_MEDIAN": 27.63
+    },
+    {
+        "OCC_TITLE": "Other Production Occupation",
+        "H_MEDIAN": 19.21
+    },
+    {
+        "OCC_TITLE": "Chemical Processing Machine Setters, Operators, and Tender",
+        "H_MEDIAN": 23.2
+    },
+    {
+        "OCC_TITLE": "Chemical Equipment Operators and Tender",
+        "H_MEDIAN": 23.72
+    },
+    {
+        "OCC_TITLE": "Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and Tender",
+        "H_MEDIAN": 22.24
+    },
+    {
+        "OCC_TITLE": "Crushing, Grinding, Polishing, Mixing, and Blending Worker",
+        "H_MEDIAN": 20.25
+    },
+    {
+        "OCC_TITLE": "Crushing, Grinding, and Polishing Machine Setters, Operators, and Tender",
+        "H_MEDIAN": 20.81
+    },
+    {
+        "OCC_TITLE": "Grinding and Polishing Workers, Hand",
+        "H_MEDIAN": 17.77
+    },
+    {
+        "OCC_TITLE": "Mixing and Blending Machine Setters, Operators, and Tender",
+        "H_MEDIAN": 20.87
+    },
+    {
+        "OCC_TITLE": "Cutting Worker",
+        "H_MEDIAN": 18.95
+    },
+    {
+        "OCC_TITLE": "Cutters and Trimmers, Hand",
+        "H_MEDIAN": 17.37
+    },
+    {
+        "OCC_TITLE": "Cutting and Slicing Machine Setters, Operators, and Tender",
+        "H_MEDIAN": 19.17
+    },
+    {
+        "OCC_TITLE": "Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tender",
+        "H_MEDIAN": 18.98
+    },
+    {
+        "OCC_TITLE": "Furnace, Kiln, Oven, Drier, and Kettle Operators and Tender",
+        "H_MEDIAN": 21.41
+    },
+    {
+        "OCC_TITLE": "Inspectors, Testers, Sorters, Samplers, and Weigher",
+        "H_MEDIAN": 21.11
+    },
+    {
+        "OCC_TITLE": "Jewelers and Precious Stone and Metal Worker",
+        "H_MEDIAN": 22.66
+    },
+    {
+        "OCC_TITLE": "Dental and Ophthalmic Laboratory Technicians and Medical Appliance Technician",
+        "H_MEDIAN": 19.8
+    },
+    {
+        "OCC_TITLE": "Dental Laboratory Technician",
+        "H_MEDIAN": 22.14
+    },
+    {
+        "OCC_TITLE": "Medical Appliance Technician",
+        "H_MEDIAN": 20.27
+    },
+    {
+        "OCC_TITLE": "Ophthalmic Laboratory Technician",
+        "H_MEDIAN": 17.7
+    },
+    {
+        "OCC_TITLE": "Packaging and Filling Machine Operators and Tender",
+        "H_MEDIAN": 17.67
+    },
+    {
+        "OCC_TITLE": "Painting Worker",
+        "H_MEDIAN": 20.85
+    },
+    {
+        "OCC_TITLE": "Painting, Coating, and Decorating Worker",
+        "H_MEDIAN": 18.4
+    },
+    {
+        "OCC_TITLE": "Coating, Painting, and Spraying Machine Setters, Operators, and Tender",
+        "H_MEDIAN": 21.14
+    },
+    {
+        "OCC_TITLE": "Semiconductor Processing Technician",
+        "H_MEDIAN": 21.49
+    },
+    {
+        "OCC_TITLE": "Photographic Process Workers and Processing Machine Operator",
+        "H_MEDIAN": 17.44
+    },
+    {
+        "OCC_TITLE": "Computer Numerically Controlled Tool Operators and Programmer",
+        "H_MEDIAN": 22.99
+    },
+    {
+        "OCC_TITLE": "Computer Numerically Controlled Tool Operator",
+        "H_MEDIAN": 22.48
+    },
+    {
+        "OCC_TITLE": "Computer Numerically Controlled Tool Programmer",
+        "H_MEDIAN": 29.23
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Production Worker",
+        "H_MEDIAN": 17.64
+    },
+    {
+        "OCC_TITLE": "Adhesive Bonding Machine Operators and Tender",
+        "H_MEDIAN": 18.65
+    },
+    {
+        "OCC_TITLE": "Cleaning, Washing, and Metal Pickling Equipment Operators and Tender",
+        "H_MEDIAN": 17.88
+    },
+    {
+        "OCC_TITLE": "Cooling and Freezing Equipment Operators and Tender",
+        "H_MEDIAN": 20.62
+    },
+    {
+        "OCC_TITLE": "Etchers and Engraver",
+        "H_MEDIAN": 18.26
+    },
+    {
+        "OCC_TITLE": "Molders, Shapers, and Casters, Except Metal and Plastic",
+        "H_MEDIAN": 19.03
+    },
+    {
+        "OCC_TITLE": "Paper Goods Machine Setters, Operators, and Tender",
+        "H_MEDIAN": 21.97
+    },
+    {
+        "OCC_TITLE": "Tire Builder",
+        "H_MEDIAN": 24.83
+    },
+    {
+        "OCC_TITLE": "Helpers--Production Worker",
+        "H_MEDIAN": 16.67
+    },
+    {
+        "OCC_TITLE": "Production Workers, All Other",
+        "H_MEDIAN": 17.06
+    },
+    {
+        "OCC_TITLE": "Transportation and Material Moving Occupation",
+        "H_MEDIAN": 18.24
+    },
+    {
+        "OCC_TITLE": "Supervisors of Transportation and Material Moving Worker",
+        "H_MEDIAN": 27.79
+    },
+    {
+        "OCC_TITLE": "First-Line Supervisors of Transportation and Material Moving Worker",
+        "H_MEDIAN": 27.79
+    },
+    {
+        "OCC_TITLE": "Aircraft Cargo Handling Supervisor",
+        "H_MEDIAN": 25.72
+    },
+    {
+        "OCC_TITLE": "First-Line Supervisors of Transportation and Material Moving Workers, Except Aircraft Cargo Handling Supervisor",
+        "H_MEDIAN": 27.82
+    },
+    {
+        "OCC_TITLE": "Air Transportation Worker",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Aircraft Pilots and Flight Engineer",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Airline Pilots, Copilots, and Flight Engineer",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Commercial Pilot",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Air Traffic Controllers and Airfield Operations Specialist",
+        "H_MEDIAN": 45.53
+    },
+    {
+        "OCC_TITLE": "Air Traffic Controller",
+        "H_MEDIAN": 63.58
+    },
+    {
+        "OCC_TITLE": "Airfield Operations Specialist",
+        "H_MEDIAN": 23.85
+    },
+    {
+        "OCC_TITLE": "Flight Attendant",
+        "H_MEDIAN": "*"
+    },
+    {
+        "OCC_TITLE": "Motor Vehicle Operator",
+        "H_MEDIAN": 21.86
+    },
+    {
+        "OCC_TITLE": "Ambulance Drivers and Attendants, Except Emergency Medical Technician",
+        "H_MEDIAN": 14.61
+    },
+    {
+        "OCC_TITLE": "Driver/Sales Workers and Truck Driver",
+        "H_MEDIAN": 22.26
+    },
+    {
+        "OCC_TITLE": "Driver/Sales Worker",
+        "H_MEDIAN": 15.72
+    },
+    {
+        "OCC_TITLE": "Heavy and Tractor-Trailer Truck Driver",
+        "H_MEDIAN": 24
+    },
+    {
+        "OCC_TITLE": "Light Truck Driver",
+        "H_MEDIAN": 19.43
+    },
+    {
+        "OCC_TITLE": "Passenger Vehicle Driver",
+        "H_MEDIAN": 18.96
+    },
+    {
+        "OCC_TITLE": "Bus Drivers, School",
+        "H_MEDIAN": 19.84
+    },
+    {
+        "OCC_TITLE": "Bus Drivers, Transit and Intercity",
+        "H_MEDIAN": 24.47
+    },
+    {
+        "OCC_TITLE": "Shuttle Drivers and Chauffeur",
+        "H_MEDIAN": 15.77
+    },
+    {
+        "OCC_TITLE": "Taxi Driver",
+        "H_MEDIAN": 14.75
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Motor Vehicle Operator",
+        "H_MEDIAN": 15.96
+    },
+    {
+        "OCC_TITLE": "Motor Vehicle Operators, All Other",
+        "H_MEDIAN": 15.96
+    },
+    {
+        "OCC_TITLE": "Rail Transportation Worker",
+        "H_MEDIAN": 33.15
+    },
+    {
+        "OCC_TITLE": "Locomotive Engineers and Operator",
+        "H_MEDIAN": 35.46
+    },
+    {
+        "OCC_TITLE": "Locomotive Engineer",
+        "H_MEDIAN": 35.85
+    },
+    {
+        "OCC_TITLE": "Rail Yard Engineers, Dinkey Operators, and Hostler",
+        "H_MEDIAN": 27.09
+    },
+    {
+        "OCC_TITLE": "Railroad Brake, Signal, and Switch Operators and Locomotive Firer",
+        "H_MEDIAN": 32.47
+    },
+    {
+        "OCC_TITLE": "Railroad Conductors and Yardmaster",
+        "H_MEDIAN": 32.78
+    },
+    {
+        "OCC_TITLE": "Subway and Streetcar Operator",
+        "H_MEDIAN": 42.43
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Rail Transportation Worker",
+        "H_MEDIAN": 20.33
+    },
+    {
+        "OCC_TITLE": "Rail Transportation Workers, All Other",
+        "H_MEDIAN": 20.33
+    },
+    {
+        "OCC_TITLE": "Water Transportation Worker",
+        "H_MEDIAN": 31.78
+    },
+    {
+        "OCC_TITLE": "Sailors and Marine Oiler",
+        "H_MEDIAN": 22.83
+    },
+    {
+        "OCC_TITLE": "Ship and Boat Captains and Operator",
+        "H_MEDIAN": 41.98
+    },
+    {
+        "OCC_TITLE": "Captains, Mates, and Pilots of Water Vessel",
+        "H_MEDIAN": 45.77
+    },
+    {
+        "OCC_TITLE": "Motorboat Operator",
+        "H_MEDIAN": 19.92
+    },
+    {
+        "OCC_TITLE": "Ship Engineer",
+        "H_MEDIAN": 41.97
+    },
+    {
+        "OCC_TITLE": "Other Transportation Worker",
+        "H_MEDIAN": 15.71
+    },
+    {
+        "OCC_TITLE": "Bridge and Lock Tender",
+        "H_MEDIAN": 22.73
+    },
+    {
+        "OCC_TITLE": "Parking Attendant",
+        "H_MEDIAN": 14.7
+    },
+    {
+        "OCC_TITLE": "Transportation Service Attendant",
+        "H_MEDIAN": 15.3
+    },
+    {
+        "OCC_TITLE": "Automotive and Watercraft Service Attendant",
+        "H_MEDIAN": 14.83
+    },
+    {
+        "OCC_TITLE": "Aircraft Service Attendant",
+        "H_MEDIAN": 17.81
+    },
+    {
+        "OCC_TITLE": "Traffic Technician",
+        "H_MEDIAN": 24.06
+    },
+    {
+        "OCC_TITLE": "Transportation Inspector",
+        "H_MEDIAN": 38.26
+    },
+    {
+        "OCC_TITLE": "Passenger Attendant",
+        "H_MEDIAN": 16.65
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Transportation Worker",
+        "H_MEDIAN": 17.99
+    },
+    {
+        "OCC_TITLE": "Transportation Workers, All Other",
+        "H_MEDIAN": 17.99
+    },
+    {
+        "OCC_TITLE": "Material Moving Worker",
+        "H_MEDIAN": 17.15
+    },
+    {
+        "OCC_TITLE": "Conveyor Operators and Tender",
+        "H_MEDIAN": 17.74
+    },
+    {
+        "OCC_TITLE": "Crane and Tower Operator",
+        "H_MEDIAN": 29.49
+    },
+    {
+        "OCC_TITLE": "Dredge Operator",
+        "H_MEDIAN": 22.64
+    },
+    {
+        "OCC_TITLE": "Hoist and Winch Operator",
+        "H_MEDIAN": 28.34
+    },
+    {
+        "OCC_TITLE": "Industrial Truck and Tractor Operator",
+        "H_MEDIAN": 19.82
+    },
+    {
+        "OCC_TITLE": "Laborers and Material Mover",
+        "H_MEDIAN": 16.77
+    },
+    {
+        "OCC_TITLE": "Cleaners of Vehicles and Equipment",
+        "H_MEDIAN": 14.9
+    },
+    {
+        "OCC_TITLE": "Laborers and Freight, Stock, and Material Movers, Hand",
+        "H_MEDIAN": 17.36
+    },
+    {
+        "OCC_TITLE": "Machine Feeders and Offbearer",
+        "H_MEDIAN": 18.29
+    },
+    {
+        "OCC_TITLE": "Packers and Packagers, Hand",
+        "H_MEDIAN": 15.83
+    },
+    {
+        "OCC_TITLE": "Stockers and Order Filler",
+        "H_MEDIAN": 16.45
+    },
+    {
+        "OCC_TITLE": "Pumping Station Operator",
+        "H_MEDIAN": 28.93
+    },
+    {
+        "OCC_TITLE": "Gas Compressor and Gas Pumping Station Operator",
+        "H_MEDIAN": 28.84
+    },
+    {
+        "OCC_TITLE": "Pump Operators, Except Wellhead Pumper",
+        "H_MEDIAN": 26.86
+    },
+    {
+        "OCC_TITLE": "Wellhead Pumper",
+        "H_MEDIAN": 30.42
+    },
+    {
+        "OCC_TITLE": "Refuse and Recyclable Material Collector",
+        "H_MEDIAN": 20.94
+    },
+    {
+        "OCC_TITLE": "Tank Car, Truck, and Ship Loader",
+        "H_MEDIAN": 25.93
+    },
+    {
+        "OCC_TITLE": "Miscellaneous Material Moving Worker",
+        "H_MEDIAN": 18.65
+    },
+    {
+        "OCC_TITLE": "Material Moving Workers, All Other",
+        "H_MEDIAN": 18.65
+    }
+]

@@ -1,9 +1,8 @@
-import React from 'react';
-import { useTimer } from '../../hooks/useTimer';
+type UnpauseButtonProps = {
+  unpause: () => void;
+};
 
-const UnpauseButton: React.FC = () => {
-  const { unpause } = useTimer();
-  
+const UnpauseButton: React.FC<UnpauseButtonProps> = ({ unpause }) => {
   return (
     <button onClick={unpause}>Unpause</button>
   );

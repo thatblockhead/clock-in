@@ -2,7 +2,7 @@ type TimerDisplayProps = {
     time: number;
 };
 
-export const TimerDisplay: React.FC<TimerDisplayProps> = ({ time }) => {
+export default function TimerDisplay({ time }: TimerDisplayProps) {
     const hours = Math.floor(time / 3600);
     const minutes = Math.floor((time % 3600) / 60);
     const seconds = time % 60;
@@ -12,4 +12,4 @@ export const TimerDisplay: React.FC<TimerDisplayProps> = ({ time }) => {
         .padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
 
     return <h1>{formattedTime}</h1>;
-};  
+}

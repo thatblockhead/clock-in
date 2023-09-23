@@ -1,6 +1,13 @@
+"use client"
+
 import { useEffect, useState } from "react";
-import JobTitleSelector from "@/components/JobTitleSelector";
-import Timer from "@/components/Timer";
+import { useTimer } from "../hooks/useTimer";
+import ClockInButton from "../components/buttons/ClockInButton";
+import ClockOutButton from "../components/buttons/ClockOutButton";
+import PauseButton from "../components/buttons/PauseButton";
+import UnpauseButton from "../components/buttons/UnpauseButton";
+import TimerDisplay from "../components/TimerDisplay";
+import JobTitleSelector from "../components/JobTitleSelector";
 
 type Session = {
   startTime: number;
@@ -10,6 +17,7 @@ type Session = {
 
 export default function Home() {
   const [sessions, setSessions] = useState<Session[]>([]);
+  const { time, isActive, clockIn, clockOut, pause, unpause } = useTimer();
 
   const handleNewSession = (newSession: Session) => {
     setSessions([...sessions, newSession]);
@@ -38,9 +46,17 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center p-24">
       <JobTitleSelector />
-      <Timer />
+      <TimerDisplay time={time} />
+      <div>
+        <PauseButton pause={pause} />
+        <UnpauseButton unpause={unpause} />
+      </div>
+      <div>
+        <ClockInButton clockIn={clockIn} handleNewSession={handleNewSession}/>
+        <ClockOutButton clockOut={clockOut} handleUpdateSession={handleUpdateSession} />
+      </div>
     </main>
-  )
+  );
 }

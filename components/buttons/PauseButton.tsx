@@ -1,9 +1,8 @@
-import React from 'react';
-import { useTimer } from '../../hooks/useTimer';
+type PauseButtonProps = {
+  pause: () => void;
+};
 
-const PauseButton: React.FC = () => {
-  const { pause } = useTimer();
-  
+const PauseButton: React.FC<PauseButtonProps> = ({ pause }) => {
   return (
     <button onClick={pause}>Pause</button>
   );

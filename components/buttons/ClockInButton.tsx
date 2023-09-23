@@ -1,12 +1,11 @@
 import React from 'react';
-import { useTimer } from '../../hooks/useTimer';
 
 type ClockInButtonProps = {
+  clockIn: () => void;
   handleNewSession: (newSession: any) => void;
 };
 
-const ClockInButton: React.FC<ClockInButtonProps> = ({ handleNewSession }) => {
-  const { clockIn } = useTimer();
+const ClockInButton: React.FC<ClockInButtonProps> = ({ clockIn, handleNewSession }) => {
   
   const handleClick = () => {
     clockIn();

@@ -1,16 +1,13 @@
-import React from 'react';
-import { useTimer } from '../../hooks/useTimer';
-
 type ClockOutButtonProps = {
+  clockOut: () => void;
   handleUpdateSession: (updatedSession: any) => void;
 };
 
-const ClockOutButton: React.FC<ClockOutButtonProps> = ({ handleUpdateSession }) => {
-  const { clockOut, time } = useTimer();
+const ClockOutButton: React.FC<ClockOutButtonProps> = ({ clockOut, handleUpdateSession }) => {
   
   const handleClick = () => {
     clockOut();
-    handleUpdateSession({ endTime: Date.now(), totalTime: time });
+    handleUpdateSession({ endTime: Date.now() });
   };
 
   return (

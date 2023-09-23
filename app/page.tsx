@@ -10,17 +10,20 @@ type Session = {
 
 export default function Home() {
   const [sessions, setSessions] = useState<Session[]>([]);
-  
+
   const handleNewSession = (newSession: Session) => {
     setSessions([...sessions, newSession]);
     saveSessionsToLocalStorage();
   };
 
-  const handleUpdateSession = (updatedSession: Session, index: number) => {
-    const newSessions = [...sessions];
-    newSessions[index] = updatedSession;
-    setSessions(newSessions);
-    saveSessionsToLocalStorage();
+  const handleUpdateSession = (updatedSession: Session) => {
+    const lastSessionIndex = sessions.length - 1;
+    if (lastSessionIndex >= 0) {
+      const updatedSessions = [...sessions];
+      updatedSessions[lastSessionIndex] = { ...sessions[lastSessionIndex], ...updatedSession };
+      setSessions(updatedSessions);
+      saveSessionsToLocalStorage();
+    }
   };
 
   const saveSessionsToLocalStorage = () => {
@@ -33,7 +36,7 @@ export default function Home() {
       setSessions(JSON.parse(savedSessions));
     }
   }, []);
-  
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <JobTitleSelector />

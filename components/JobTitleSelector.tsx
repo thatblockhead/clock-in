@@ -1,12 +1,17 @@
 "use client"
 
 import { useState } from "react";
+import { Job } from "@/models";
 
 const jobData = import("../national_median_hourly_wages.json");
 
-export default function JobTitleSelector() {
+type JobTitleSelectorProps = {
+    selectedJob: Job | null;
+    setSelectedJob: React.Dispatch<React.SetStateAction<Job | null>>;
+  };
+  
+  export default function JobTitleSelector({ selectedJob, setSelectedJob }: JobTitleSelectorProps) {
     const [query, setQuery] = useState<string>("");
-    const [selectedJob, setSelectedJob] = useState<{ title: string; wage: string | number } | null>(null);
     const [suggestions, setSuggestions] = useState<any[]>([]);
     const [editable, setEditable] = useState<boolean>(false);
 

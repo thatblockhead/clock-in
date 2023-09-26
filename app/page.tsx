@@ -8,16 +8,12 @@ import PauseButton from "../components/buttons/PauseButton";
 import UnpauseButton from "../components/buttons/UnpauseButton";
 import TimerDisplay from "../components/TimerDisplay";
 import JobTitleSelector from "../components/JobTitleSelector";
-
-type Session = {
-  startTime: number;
-  endTime: number;
-  totalTime: number;
-};
+import { Session, Job } from "@/models";
 
 export default function Home() {
   const [sessions, setSessions] = useState<Session[]>([]);
   const { time, isActive, clockIn, clockOut, pause, unpause } = useTimer();
+  const [selectedJob, setSelectedJob] = useState<Job | null>(null);
 
   const handleNewSession = (newSession: Session) => {
     setSessions([...sessions, newSession]);
@@ -47,7 +43,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
-      <JobTitleSelector />
+      <JobTitleSelector selectedJob={selectedJob} setSelectedJob={setSelectedJob}/>
       <TimerDisplay time={time} />
       <div>
         <PauseButton pause={pause} />

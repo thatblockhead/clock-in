@@ -22,16 +22,16 @@
 - [x] Commit: Data storage and state management
 
 ### Milestone 5: Job Title and Wage Specification
-- [ ] Create a component for specifying job title
-- [ ] Implement auto-suggest or dropdown for job titles based on static data file or API
-- [ ] Show the average hourly wage based on the selected job title
+- [x] Create a component for specifying job title
+- [x] Implement auto-suggest or dropdown for job titles based on static data file or API
+- [x] Show the average hourly wage based on the selected job title
 - [ ] Calculate projected earnings based on logged hours
 - [ ] Commit: Job title and wage specification feature
 
 ### Milestone 6: Data File Creation and Integration
 - [x] Create a JSON file with job titles and average hourly wages
-- [ ] Load this data into the app
-- [ ] Commit: Data file creation and integration
+- [x] Load this data into the app
+- [x] Commit: Data file creation and integration
 
 ### Milestone 7: Display Time Statistics
 - [ ] Create a Statistics component

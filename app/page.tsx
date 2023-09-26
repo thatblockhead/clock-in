@@ -9,6 +9,7 @@ import UnpauseButton from "../components/buttons/UnpauseButton";
 import TimerDisplay from "../components/TimerDisplay";
 import JobTitleSelector from "../components/JobTitleSelector";
 import { Session, Job } from "@/models";
+import EarningsDisplay from "@/components/EarningsDisplay";
 
 export default function Home() {
   const [sessions, setSessions] = useState<Session[]>([]);
@@ -45,6 +46,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center p-24">
       <JobTitleSelector selectedJob={selectedJob} setSelectedJob={setSelectedJob}/>
       <TimerDisplay time={time} />
+      {selectedJob && <EarningsDisplay wage={selectedJob.wage} time={time}/>}
       <div>
         <PauseButton pause={pause} />
         <UnpauseButton unpause={unpause} />

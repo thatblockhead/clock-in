@@ -54,7 +54,7 @@ export default function Home() {
       </div>
       <div>
         <ClockInButton clockIn={clockIn} handleNewSession={handleNewSession} />
-        <ClockOutButton clockOut={clockOut} handleUpdateSession={handleUpdateSession} />
+        <ClockOutButton clockOut={clockOut} sessions={sessions} handleUpdateSession={handleUpdateSession} />
       </div>
       <div>
         <SessionHistoryDisplay sessions={sessions} />

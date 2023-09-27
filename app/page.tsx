@@ -19,7 +19,7 @@ export default function Home() {
 
   const handleNewSession = (newSession: Session) => {
     setSessions([...sessions, newSession]);
-    saveSessionsToLocalStorage();
+    saveSessionsToLocalStorage([...sessions, newSession]);
   };
 
   const handleUpdateSession = (updatedSession: Session) => {
@@ -28,12 +28,12 @@ export default function Home() {
       const updatedSessions = [...sessions];
       updatedSessions[lastSessionIndex] = { ...sessions[lastSessionIndex], ...updatedSession };
       setSessions(updatedSessions);
-      saveSessionsToLocalStorage();
+      saveSessionsToLocalStorage(updatedSessions);
     }
   };
 
-  const saveSessionsToLocalStorage = () => {
-    localStorage.setItem("sessions", JSON.stringify(sessions));
+  const saveSessionsToLocalStorage = (updatedSessions: Session[]) => {
+    localStorage.setItem("sessions", JSON.stringify(updatedSessions));
   };
 
   useEffect(() => {
@@ -45,19 +45,19 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
-      <JobTitleSelector selectedJob={selectedJob} setSelectedJob={setSelectedJob}/>
+      <JobTitleSelector selectedJob={selectedJob} setSelectedJob={setSelectedJob} />
       <TimerDisplay time={time} />
-      {selectedJob && <EarningsDisplay wage={selectedJob.wage} time={time}/>}
+      {selectedJob && <EarningsDisplay wage={selectedJob.wage} time={time} />}
       <div>
         <PauseButton pause={pause} />
         <UnpauseButton unpause={unpause} />
       </div>
       <div>
-        <ClockInButton clockIn={clockIn} handleNewSession={handleNewSession}/>
+        <ClockInButton clockIn={clockIn} handleNewSession={handleNewSession} />
         <ClockOutButton clockOut={clockOut} handleUpdateSession={handleUpdateSession} />
       </div>
       <div>
-        <SessionHistoryDisplay sessions={sessions}/>
+        <SessionHistoryDisplay sessions={sessions} />
       </div>
     </main>
   );

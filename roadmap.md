@@ -25,8 +25,8 @@
 - [x] Create a component for specifying job title
 - [x] Implement auto-suggest or dropdown for job titles based on static data file or API
 - [x] Show the average hourly wage based on the selected job title
-- [ ] Calculate projected earnings based on logged hours
-- [ ] Commit: Job title and wage specification feature
+- [x] Calculate projected earnings based on logged hours
+- [x] Commit: Job title and wage specification feature
 
 ### Milestone 6: Data File Creation and Integration
 - [x] Create a JSON file with job titles and average hourly wages
@@ -34,6 +34,7 @@
 - [x] Commit: Data file creation and integration
 
 ### Milestone 7: Display Time Statistics
+- [ ] Display Daily Sessions History Log
 - [ ] Create a Statistics component
 - [ ] Calculate and display daily, weekly, monthly, and total hours
 - [ ] Commit: Time statistics display

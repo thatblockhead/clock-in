@@ -10,6 +10,7 @@ import TimerDisplay from "../components/TimerDisplay";
 import JobTitleSelector from "../components/JobTitleSelector";
 import { Session, Job } from "@/models";
 import EarningsDisplay from "@/components/EarningsDisplay";
+import SessionHistoryDisplay from "@/components/SessionHistoryDisplay";
 
 export default function Home() {
   const [sessions, setSessions] = useState<Session[]>([]);
@@ -54,6 +55,9 @@ export default function Home() {
       <div>
         <ClockInButton clockIn={clockIn} handleNewSession={handleNewSession}/>
         <ClockOutButton clockOut={clockOut} handleUpdateSession={handleUpdateSession} />
+      </div>
+      <div>
+        <SessionHistoryDisplay sessions={sessions}/>
       </div>
     </main>
   );

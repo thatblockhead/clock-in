@@ -3,24 +3,24 @@
 import { useState } from "react";
 import { Job } from "@/models";
 
-const jobData = import("../national_median_hourly_wages.json");
+const wageData = import("../national_median_hourly_wages.json");
 
 type JobTitleSelectorProps = {
     selectedJob: Job | null;
     setSelectedJob: React.Dispatch<React.SetStateAction<Job | null>>;
-  };
-  
-  export default function JobTitleSelector({ selectedJob, setSelectedJob }: JobTitleSelectorProps) {
+};
+
+export default function JobTitleSelector({ selectedJob, setSelectedJob }: JobTitleSelectorProps) {
     const [query, setQuery] = useState<string>("");
     const [suggestions, setSuggestions] = useState<any[]>([]);
-    const [editable, setEditable] = useState<boolean>(false);
+    const [jobData, setJobData] = useState<Job | null>(null);
 
     const handleQueryChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
         const newQuery = e.target.value;
         setQuery(newQuery);
 
         if (newQuery.length > 4) {
-            const data = (await jobData).default;
+            const data = (await wageData).default;
             const filtered = data.filter((job: any) => job.OCC_TITLE.toLowerCase().includes(newQuery.toLowerCase()));
             setSuggestions(filtered);
         } else {
@@ -29,62 +29,76 @@ type JobTitleSelectorProps = {
     };
 
     const handleJobSelect = (job: any) => {
-        setSelectedJob({ title: job.OCC_TITLE, wage: job.H_MEDIAN });
+        setJobData({ title: job.OCC_TITLE, wage: parseFloat(job.H_MEDIAN) || 0 });
         setQuery("");
         setSuggestions([]);
-        setEditable(true);
+    };
+
+    const handleSave = () => {
+        if (jobData && !isNaN(Number(jobData.wage))) {
+            setSelectedJob(jobData);
+            setJobData(null);
+        }
     };
 
     const handleFieldChange = (e: React.ChangeEvent<HTMLInputElement>, field: "title" | "wage") => {
-        if (selectedJob) {
-            setSelectedJob({ ...selectedJob, [field]: e.target.value });
+        if (jobData) {
+            setJobData({ ...jobData, [field]: e.target.value });
         }
     };
 
     return (
         <div>
-            <h1>Select a job title</h1>
-            <label htmlFor="jobSearch">Search Job Title: </label>
-            <input 
-                className="bg-black text-white border border-gray-500" 
-                type="text" 
-                value={query} 
-                onChange={handleQueryChange} 
-                placeholder="Search job titles..." />
-            {suggestions.length > 0 && (
+            {selectedJob ? (
                 <div>
-                    {suggestions.map((job, index) => (
-                        <div key={index} onClick={() => handleJobSelect(job)}>
-                            {job.OCC_TITLE}
-                        </div>
-                    ))}
+                    <h1>Selected Job</h1>
+                    <span>{`Selected Job: ${selectedJob.title}`}</span>
+                    <span>{`Median Hourly Wage: ${isNaN(Number(selectedJob.wage)) ? "Not available" : selectedJob.wage}`}</span>
+                    <button onClick={() => setSelectedJob(null)}>Change</button>
                 </div>
-            )}
-            {selectedJob && (
-                <div>
-                    {editable ? (
-                        <>
+            ) : (
+                <>
+                    <h1>Select a job title</h1>
+                    <label htmlFor="jobSearch">Search Job Title: </label>
+                    <input
+                        className="bg-black text-white border border-gray-500"
+                        type="text"
+                        value={query}
+                        onChange={handleQueryChange}
+                        placeholder="Search job titles..."
+                    />
+                    {suggestions.length > 0 && (
+                        <div>
+                            {suggestions.map((job, index) => (
+                                <div key={index} onClick={() => handleJobSelect(job)}>
+                                    {job.OCC_TITLE}
+                                </div>
+                            ))}
+                        </div>
+                    )}
+                    {jobData && (
+                        <div>
                             <input
                                 className="bg-black text-white border border-gray-500"
                                 type="text"
-                                value={selectedJob.title}
+                                value={jobData.title}
                                 onChange={(e) => handleFieldChange(e, "title")}
                             />
                             <input
                                 className="bg-black text-white border border-gray-500"
-                                type="text"
-                                value={selectedJob.wage}
+                                type="number"
+                                value={jobData.wage}
                                 onChange={(e) => handleFieldChange(e, "wage")}
                             />
-                        </>
-                    ) : (
-                        <>
-                            <span>{`Selected Job: ${selectedJob.title}`}</span>
-                            <span>{`Median Hourly Wage: ${isNaN(Number(selectedJob.wage)) ? "Not available" : selectedJob.wage}`}</span>
-                        </>
+                            {jobData.wage === 0 && (
+                                <div className="text-red-500">
+                                    No wage data found. Please enter manually.
+                                </div>
+                            )}
+                            <button onClick={handleSave}>Save</button>
+                        </div>
                     )}
-                    {isNaN(Number(selectedJob.wage)) && <div>Wage data is not available. Please enter manually.</div>}
-                </div>
+                </>
             )}
         </div>
     );

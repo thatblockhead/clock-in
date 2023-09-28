@@ -34,9 +34,9 @@
 - [x] Commit: Data file creation and integration
 
 ### Milestone 7: Display Time Statistics
-- [ ] Display Daily Sessions History Log
-- [ ] Create a Statistics component
-- [ ] Calculate and display daily, weekly, monthly, and total hours
+- [x] Display Daily Sessions History Log
+- [ ] Add job title, wage to sessions
+- [ ] Display total hours, earnings
 - [ ] Commit: Time statistics display
 
 ### Milestone 8: Styling and UI Polish

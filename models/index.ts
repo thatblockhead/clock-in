@@ -6,5 +6,5 @@ export type Session = {
 
 export type Job = {
     title: string;
-    wage: string | number;
+    wage: number;
 }

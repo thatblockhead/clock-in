@@ -35,7 +35,7 @@
 
 ### Milestone 7: Display Time Statistics
 - [x] Display Daily Sessions History Log
-- [ ] Add job title, wage to sessions
+- [x] Add job title, wage to sessions
 - [ ] Display total hours, earnings
 - [ ] Commit: Time statistics display
 

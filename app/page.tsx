@@ -18,19 +18,30 @@ export default function Home() {
   const [selectedJob, setSelectedJob] = useState<Job | null>(null);
 
   const handleNewSession = (newSession: Session) => {
-    setSessions([...sessions, newSession]);
-    saveSessionsToLocalStorage([...sessions, newSession]);
+    const updatedSessions = [...sessions, newSession];
+    if (selectedJob) {
+      updatedSessions[updatedSessions.length - 1].jobTitle = selectedJob.title;
+      updatedSessions[updatedSessions.length - 1].earnings = selectedJob.wage * (newSession.totalTime / 3600000);
+    }
+    setSessions(updatedSessions);
+    saveSessionsToLocalStorage(updatedSessions);
   };
-
+  
   const handleUpdateSession = (updatedSession: Session) => {
     const lastSessionIndex = sessions.length - 1;
     if (lastSessionIndex >= 0) {
       const updatedSessions = [...sessions];
       updatedSessions[lastSessionIndex] = { ...sessions[lastSessionIndex], ...updatedSession };
+      
+      if (selectedJob) {
+        updatedSessions[lastSessionIndex].jobTitle = selectedJob.title;
+        updatedSessions[lastSessionIndex].earnings = selectedJob.wage * (updatedSession.totalTime / 3600000);
+      }
+  
       setSessions(updatedSessions);
       saveSessionsToLocalStorage(updatedSessions);
     }
-  };
+  };  
 
   const saveSessionsToLocalStorage = (updatedSessions: Session[]) => {
     localStorage.setItem("sessions", JSON.stringify(updatedSessions));

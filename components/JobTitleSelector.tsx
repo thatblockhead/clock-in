@@ -42,10 +42,14 @@ export default function JobTitleSelector({ selectedJob, setSelectedJob }: JobTit
     };
 
     const handleFieldChange = (e: React.ChangeEvent<HTMLInputElement>, field: "title" | "wage") => {
-        if (jobData) {
-            setJobData({ ...jobData, [field]: e.target.value });
+        let value: string | number = e.target.value;
+        if (field === "wage") {
+            value = parseFloat(value);
         }
-    };
+        if (jobData) {
+            setJobData({ ...jobData, [field]: value });
+        }
+    };    
 
     return (
         <div>

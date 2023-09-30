@@ -36,20 +36,27 @@
 ### Milestone 7: Display Time Statistics
 - [x] Display Daily Sessions History Log
 - [x] Add job title, wage to sessions
-- [ ] Display total hours, earnings
-- [ ] Commit: Time statistics display
+- [x] Display total hours, earnings
+- [x] Commit: Time statistics display
 
 ### Milestone 8: Styling and UI Polish
 - [ ] Style Timer and Statistics components
 - [ ] Add responsiveness to the layout
 - [ ] Commit: Styling and UI polish
 
-### Milestone 9: Testing and Debugging
-- [ ] Manually test all features
-- [ ] Fix any bugs and issues
-- [ ] Commit: Testing and debugging
-
-### Milestone 10: Deployment
+### Milestone 9: Deployment
 - [ ] Prepare for deployment (e.g., environment variables, build scripts)
 - [ ] Deploy the application
 - [ ] Commit: Deployment
+
+### Future Features
+- [ ] Pop-out window
+- [ ] Save job title to local storage for persistence
+- [ ]
+
+### Bugs
+- [ ] Timer pauses when tab inactive
+  - [ ] use web worker to keep timer going
+- [ ] Earnings calculation fails with user-inputted wage
+- [ ] Earnings calculation slightly off?
+- [ ]

@@ -55,8 +55,7 @@
 - [ ]
 
 ### Bugs
-- [ ] Timer pauses when tab inactive
-  - [ ] use web worker to keep timer going
-- [ ] Earnings calculation fails with user-inputted wage
+- [x] Timer pauses when tab inactive
+- [x] Earnings calculation fails with user-inputted wage
 - [ ] Earnings calculation slightly off?
 - [ ]

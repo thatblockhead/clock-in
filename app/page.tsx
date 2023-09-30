@@ -14,7 +14,7 @@ import SessionHistoryDisplay from "@/components/SessionHistoryDisplay";
 
 export default function Home() {
   const [sessions, setSessions] = useState<Session[]>([]);
-  const { time, isActive, clockIn, clockOut, pause, unpause } = useTimer();
+  const { time, isActive, clockIn, clockOut, pause, unpause, pausedTime } = useTimer();
   const [selectedJob, setSelectedJob] = useState<Job | null>(null);
 
   const handleNewSession = (newSession: Session) => {
@@ -65,7 +65,7 @@ export default function Home() {
       </div>
       <div>
         <ClockInButton clockIn={clockIn} handleNewSession={handleNewSession} />
-        <ClockOutButton clockOut={clockOut} sessions={sessions} handleUpdateSession={handleUpdateSession} />
+        <ClockOutButton clockOut={clockOut} sessions={sessions} handleUpdateSession={handleUpdateSession} pausedTime={pausedTime}/>
       </div>
       <div>
         <SessionHistoryDisplay sessions={sessions} />

@@ -3,31 +3,44 @@ import { useEffect, useState } from "react";
 export const useTimer = () => {
   const [time, setTime] = useState<number>(0);
   const [isActive, setIsActive] = useState<boolean>(false);
+  const [pauseStart, setPauseStart] = useState<number | null>(null);
+  const [pausedTime, setPausedTime] = useState<number>(0);
+  const [startTime, setStartTime] = useState<number | null>(null);
 
   const clockIn = () => {
     setTime(0);
     setIsActive(true);
+    setPausedTime(0);
+    setStartTime(Date.now());
   };
 
   const clockOut = () => {
     setTime(0);
     setIsActive(false);
+    setPausedTime(0);
+    setStartTime(null);
   };
 
   const pause = () => {
     setIsActive(false);
+    setPauseStart(Date.now());
   };
 
   const unpause = () => {
+    if (pauseStart) {
+      setPausedTime((prevPausedTime) => prevPausedTime + (Date.now() - pauseStart));
+      setPauseStart(null);
+    }
     setIsActive(true);
   };
 
   useEffect(() => {
     let interval: NodeJS.Timeout | undefined;
 
-    if (isActive) {
+    if (isActive && startTime !== null) {
       interval = setInterval(() => {
-        setTime((prevTime) => prevTime + 1);
+        const currentTime = Date.now();
+        setTime(Math.floor((currentTime - startTime - pausedTime) / 1000));
       }, 1000);
     } else {
       clearInterval(interval);
@@ -36,7 +49,7 @@ export const useTimer = () => {
     return () => {
       clearInterval(interval);
     };
-  }, [isActive]);
+  }, [isActive, pausedTime, startTime]);
 
   return {
     time,
@@ -45,5 +58,6 @@ export const useTimer = () => {
     clockOut,
     pause,
     unpause,
+    pausedTime,
   };
 };

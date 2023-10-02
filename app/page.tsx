@@ -59,6 +59,28 @@ export default function Home() {
     }
   }, []);
 
+  useEffect(() => {
+    const handleWindowClose = () => {
+      if (isActive) {
+        const lastSession = sessions[sessions.length - 1];
+        if (lastSession) {
+          const updatedSession = {
+            ...lastSession,
+            endTime: Date.now(),
+            totalTime: Date.now() - lastSession.startTime - pausedTime
+          };
+          handleUpdateSession(updatedSession);
+        }
+      }
+    };
+
+    window.addEventListener('beforeunload', handleWindowClose);
+
+    return () => {
+      window.removeEventListener('beforeunload', handleWindowClose);
+    };
+  }, [isActive, sessions, pausedTime]);
+
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
       <JobTitleSelector selectedJob={selectedJob} setSelectedJob={setSelectedJob} />

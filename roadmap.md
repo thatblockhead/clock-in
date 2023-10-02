@@ -49,6 +49,7 @@
   - [ ] Style timer buttons
   - [ ] Conditionally render timer buttons
   - [ ] Style session history header
+  - [ ] Add header, footer
 - [ ] Add responsiveness to the layout
 - [ ] Commit: Styling and UI polish
 
@@ -59,11 +60,11 @@
 
 ### Future Features
 - [ ] Pop-out window
-- [ ] Save job title to local storage for persistence
+- [x] Save job title to local storage for persistence
 - [ ]
 
 ### Bugs
 - [x] Timer pauses when tab inactive
 - [x] Earnings calculation fails with user-inputted wage
 - [ ] Earnings calculation slightly off?
-- [ ] End session if component unmounts (tab closed, navigated away, etc)
+- [x] End session if component unmounts (tab closed, navigated away, etc)

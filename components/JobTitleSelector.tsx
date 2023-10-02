@@ -63,7 +63,14 @@ export default function JobTitleSelector({ selectedJob, setSelectedJob }: JobTit
                 </div>
             ) : (
                 <>
-                    <button onClick={() => setShowSearch(!showSearch)}>Select a job title</button> {/* Toggle button */}
+                    {!showSearch && (
+                        <button 
+                            onClick={() => setShowSearch(true)}
+                            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                        >
+                            Select a job title
+                        </button>
+                    )}
                     {showSearch && (
                         <>
                             <label htmlFor="jobSearch">Search Job Title: </label>
@@ -110,5 +117,5 @@ export default function JobTitleSelector({ selectedJob, setSelectedJob }: JobTit
                 </>
             )}
         </div>
-    );
+    );    
 };

@@ -37,9 +37,10 @@ export default function JobTitleSelector({ selectedJob, setSelectedJob }: JobTit
     const handleSave = () => {
         if (jobData && !isNaN(Number(jobData.wage))) {
             setSelectedJob(jobData);
+            localStorage.setItem("selectedJob", JSON.stringify(jobData));
             setJobData(null);
         }
-    };
+    };    
 
     const handleFieldChange = (e: React.ChangeEvent<HTMLInputElement>, field: "title" | "wage") => {
         let value: string | number = e.target.value;

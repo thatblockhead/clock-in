@@ -42,6 +42,13 @@
 
 ### Milestone 8: Styling and UI Polish
 - [ ] Style Timer and Statistics components
+  - [ ] Hide job title search until button pushed
+  - [ ] Style button
+  - [ ] Style job title, wage
+  - [ ] Style timer display
+  - [ ] Style timer buttons
+  - [ ] Conditionally render timer buttons
+  - [ ] Style session history header
 - [ ] Add responsiveness to the layout
 - [ ] Commit: Styling and UI polish
 
@@ -59,4 +66,4 @@
 - [x] Timer pauses when tab inactive
 - [x] Earnings calculation fails with user-inputted wage
 - [ ] Earnings calculation slightly off?
-- [ ]
+- [ ] End session if component unmounts (tab closed, navigated away, etc)

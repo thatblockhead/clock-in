@@ -26,22 +26,22 @@ export default function Home() {
     setSessions(updatedSessions);
     saveSessionsToLocalStorage(updatedSessions);
   };
-  
+
   const handleUpdateSession = (updatedSession: Session) => {
     const lastSessionIndex = sessions.length - 1;
     if (lastSessionIndex >= 0) {
       const updatedSessions = [...sessions];
       updatedSessions[lastSessionIndex] = { ...sessions[lastSessionIndex], ...updatedSession };
-      
+
       if (selectedJob) {
         updatedSessions[lastSessionIndex].jobTitle = selectedJob.title;
         updatedSessions[lastSessionIndex].earnings = selectedJob.wage * (updatedSession.totalTime / 3600000);
       }
-  
+
       setSessions(updatedSessions);
       saveSessionsToLocalStorage(updatedSessions);
     }
-  };  
+  };
 
   const saveSessionsToLocalStorage = (updatedSessions: Session[]) => {
     localStorage.setItem("sessions", JSON.stringify(updatedSessions));
@@ -51,6 +51,11 @@ export default function Home() {
     const savedSessions = localStorage.getItem('sessions');
     if (savedSessions) {
       setSessions(JSON.parse(savedSessions));
+    }
+
+    const savedJob = localStorage.getItem('selectedJob');
+    if (savedJob) {
+      setSelectedJob(JSON.parse(savedJob));
     }
   }, []);
 
@@ -65,7 +70,7 @@ export default function Home() {
       </div>
       <div>
         <ClockInButton clockIn={clockIn} handleNewSession={handleNewSession} />
-        <ClockOutButton clockOut={clockOut} sessions={sessions} handleUpdateSession={handleUpdateSession} pausedTime={pausedTime}/>
+        <ClockOutButton clockOut={clockOut} sessions={sessions} handleUpdateSession={handleUpdateSession} pausedTime={pausedTime} />
       </div>
       <div>
         <SessionHistoryDisplay sessions={sessions} />

@@ -12,6 +12,7 @@ type JobTitleSelectorProps = {
 
 export default function JobTitleSelector({ selectedJob, setSelectedJob }: JobTitleSelectorProps) {
     const [query, setQuery] = useState<string>("");
+    const [showSearch, setShowSearch] = useState<boolean>(false);
     const [suggestions, setSuggestions] = useState<any[]>([]);
     const [jobData, setJobData] = useState<Job | null>(null);
 
@@ -40,7 +41,7 @@ export default function JobTitleSelector({ selectedJob, setSelectedJob }: JobTit
             localStorage.setItem("selectedJob", JSON.stringify(jobData));
             setJobData(null);
         }
-    };    
+    };
 
     const handleFieldChange = (e: React.ChangeEvent<HTMLInputElement>, field: "title" | "wage") => {
         let value: string | number = e.target.value;
@@ -50,58 +51,61 @@ export default function JobTitleSelector({ selectedJob, setSelectedJob }: JobTit
         if (jobData) {
             setJobData({ ...jobData, [field]: value });
         }
-    };    
+    };
 
     return (
         <div>
             {selectedJob ? (
                 <div>
-                    <h1>Selected Job</h1>
                     <span>{`Selected Job: ${selectedJob.title}`}</span>
                     <span>{`Median Hourly Wage: ${isNaN(Number(selectedJob.wage)) ? "Not available" : selectedJob.wage}`}</span>
                     <button onClick={() => setSelectedJob(null)}>Change</button>
                 </div>
             ) : (
                 <>
-                    <h1>Select a job title</h1>
-                    <label htmlFor="jobSearch">Search Job Title: </label>
-                    <input
-                        className="bg-black text-white border border-gray-500"
-                        type="text"
-                        value={query}
-                        onChange={handleQueryChange}
-                        placeholder="Search job titles..."
-                    />
-                    {suggestions.length > 0 && (
-                        <div>
-                            {suggestions.map((job, index) => (
-                                <div key={index} onClick={() => handleJobSelect(job)}>
-                                    {job.OCC_TITLE}
-                                </div>
-                            ))}
-                        </div>
-                    )}
-                    {jobData && (
-                        <div>
+                    <button onClick={() => setShowSearch(!showSearch)}>Select a job title</button> {/* Toggle button */}
+                    {showSearch && (
+                        <>
+                            <label htmlFor="jobSearch">Search Job Title: </label>
                             <input
                                 className="bg-black text-white border border-gray-500"
                                 type="text"
-                                value={jobData.title}
-                                onChange={(e) => handleFieldChange(e, "title")}
+                                value={query}
+                                onChange={handleQueryChange}
+                                placeholder="Search job titles..."
                             />
-                            <input
-                                className="bg-black text-white border border-gray-500"
-                                type="number"
-                                value={jobData.wage}
-                                onChange={(e) => handleFieldChange(e, "wage")}
-                            />
-                            {jobData.wage === 0 && (
-                                <div className="text-red-500">
-                                    No wage data found. Please enter manually.
+                            {suggestions.length > 0 && (
+                                <div>
+                                    {suggestions.map((job, index) => (
+                                        <div key={index} onClick={() => handleJobSelect(job)}>
+                                            {job.OCC_TITLE}
+                                        </div>
+                                    ))}
                                 </div>
                             )}
-                            <button onClick={handleSave}>Save</button>
-                        </div>
+                            {jobData && (
+                                <div>
+                                    <input
+                                        className="bg-black text-white border border-gray-500"
+                                        type="text"
+                                        value={jobData.title}
+                                        onChange={(e) => handleFieldChange(e, "title")}
+                                    />
+                                    <input
+                                        className="bg-black text-white border border-gray-500"
+                                        type="number"
+                                        value={jobData.wage}
+                                        onChange={(e) => handleFieldChange(e, "wage")}
+                                    />
+                                    {jobData.wage === 0 && (
+                                        <div className="text-red-500">
+                                            No wage data found. Please enter manually.
+                                        </div>
+                                    )}
+                                    <button onClick={handleSave}>Save</button>
+                                </div>
+                            )}
+                        </>
                     )}
                 </>
             )}

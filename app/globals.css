@@ -25,3 +25,12 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+table td, table th {
+  border: 1px solid white;
+}
+
+/* Collapse borders */
+table {
+  border-collapse: collapse;
+}

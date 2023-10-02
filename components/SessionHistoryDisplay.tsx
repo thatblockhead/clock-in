@@ -13,17 +13,30 @@ export default function SessionHistoryDisplay({ sessions }: { sessions: Session[
             <h2>Session History</h2>
             <p>Total Time Across All Sessions: {formatTime(totalTime)}</p>
             <p>Total Earnings Across All Sessions: ${totalEarnings.toFixed(2)}</p>
-            <ul>
-                {[...sessions].reverse().map((session, index) => (
-                    <li key={index}>
-                        {session.jobTitle && <p>Job Title: {session.jobTitle}</p>}
-                        <p>Start Time: {new Date(session.startTime).toLocaleString()}</p>
-                        <p>End Time: {session.endTime ? new Date(session.endTime).toLocaleString() : 'Ongoing'}</p>
-                        <p>Session Length: {new Date(session.totalTime).toISOString().slice(11, 19)}</p>
-                        {session.earnings && <p>Potential Earnings: ${session.earnings.toFixed(2)}</p>}
-                    </li>
-                ))}
-            </ul>
+            <table className="table-auto border-collapse border border-gray-800">
+                <thead>
+                    <tr>
+                        <th>Session Date</th>
+                        <th>Start Time</th>
+                        <th>End Time</th>
+                        <th>Length</th>
+                        <th>Job Title</th>
+                        <th>Earnings</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {[...sessions].reverse().map((session, index) => (
+                        <tr key={index}>
+                            <td>{new Date(session.startTime).toLocaleDateString()}</td>
+                            <td>{new Date(session.startTime).toLocaleTimeString()}</td>
+                            <td>{session.endTime ? new Date(session.endTime).toLocaleTimeString() : 'Ongoing'}</td>
+                            <td>{formatTime(session.totalTime)}</td>
+                            <td>{session.jobTitle || 'N/A'}</td>
+                            <td>{session.earnings ? `$${session.earnings.toFixed(2)}` : 'N/A'}</td>
+                        </tr>
+                    ))}
+                </tbody>
+            </table>
         </div>
     );
 }

@@ -37,6 +37,7 @@
 - [x] Display Daily Sessions History Log
 - [x] Add job title, wage to sessions
 - [x] Display total hours, earnings
+- [x] Change component into table for easier readability
 - [x] Commit: Time statistics display
 
 ### Milestone 8: Styling and UI Polish

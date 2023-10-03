@@ -45,7 +45,7 @@
   - [x] Hide job title search until button pushed
   - [x] Style button
   - [x] Style job title, wage
-  - [ ] Style timer display
+  - [x] Style timer display
   - [ ] Style timer buttons
   - [ ] Conditionally render timer buttons
   - [ ] Style session history header

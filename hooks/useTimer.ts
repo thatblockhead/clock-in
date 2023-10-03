@@ -8,7 +8,7 @@ export const useTimer = () => {
   const [startTime, setStartTime] = useState<number | null>(null);
 
   const clockIn = () => {
-    setTime(0);
+    setTime(0.01);
     setIsActive(true);
     setPausedTime(0);
     setStartTime(Date.now());
@@ -18,6 +18,7 @@ export const useTimer = () => {
     setTime(0);
     setIsActive(false);
     setPausedTime(0);
+    setPauseStart(null);
     setStartTime(null);
   };
 
@@ -58,6 +59,7 @@ export const useTimer = () => {
     clockOut,
     pause,
     unpause,
+    pauseStart,
     pausedTime,
   };
 };

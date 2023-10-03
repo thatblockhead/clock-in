@@ -14,7 +14,7 @@ import SessionHistoryDisplay from "@/components/SessionHistoryDisplay";
 
 export default function Home() {
   const [sessions, setSessions] = useState<Session[]>([]);
-  const { time, isActive, clockIn, clockOut, pause, unpause, pausedTime } = useTimer();
+  const { time, isActive, clockIn, clockOut, pause, unpause, pauseStart, pausedTime } = useTimer();
   const [selectedJob, setSelectedJob] = useState<Job | null>(null);
 
   const handleNewSession = (newSession: Session) => {
@@ -84,19 +84,19 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
       <TimerDisplay time={time} />
-      <div>
-        <PauseButton pause={pause} />
-        <UnpauseButton unpause={unpause} />
+      <div className="min-h-[24px] m-1">
+        {(isActive && pauseStart === null) && <PauseButton pause={pause} />}
+        {(!isActive && pauseStart !== null) && <UnpauseButton unpause={unpause} />}
       </div>
       <div>
-        <ClockInButton clockIn={clockIn} handleNewSession={handleNewSession} />
-        <ClockOutButton clockOut={clockOut} sessions={sessions} handleUpdateSession={handleUpdateSession} pausedTime={pausedTime} />
+        {!isActive && pauseStart === null && <ClockInButton clockIn={clockIn} handleNewSession={handleNewSession} />}
+        {time !== 0 && <ClockOutButton clockOut={clockOut} sessions={sessions} handleUpdateSession={handleUpdateSession} pausedTime={pausedTime} />}
       </div>
       <div className="min-h-[24px] m-2">
-      {selectedJob ? <EarningsDisplay wage={selectedJob.wage} time={time}/> : "" }
+        {selectedJob ? <EarningsDisplay wage={selectedJob.wage} time={time} /> : ""}
       </div>
       <div className="min-h-[64px] flex items-center m-4">
-      <JobTitleSelector selectedJob={selectedJob} setSelectedJob={setSelectedJob} />
+        <JobTitleSelector selectedJob={selectedJob} setSelectedJob={setSelectedJob} />
       </div>
       <div>
         <SessionHistoryDisplay sessions={sessions} />

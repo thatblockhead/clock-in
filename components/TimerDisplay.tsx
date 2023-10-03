@@ -11,5 +11,9 @@ export default function TimerDisplay({ time }: TimerDisplayProps) {
         .toString()
         .padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
 
-    return <h1>{formattedTime}</h1>;
+    return (
+        <h1 className="text-8xl font-[Digital] p-4">
+            {formattedTime}
+        </h1>
+    );
 }

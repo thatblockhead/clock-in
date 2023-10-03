@@ -48,7 +48,7 @@
   - [x] Style timer display
   - [x] Style timer buttons
   - [x] Conditionally render timer buttons
-  - [ ] Style session history header
+  - [x] Style session history header
   - [ ] Add header, footer
 - [ ] Add responsiveness to the layout
 - [ ] Commit: Styling and UI polish

@@ -8,7 +8,7 @@ export default function EarningsDisplay({ wage, time }: EarningsDisplayProps) {
     const earnings = ((time / 3600) * hourlyWage).toFixed(2);
 
     return (
-        <p className="text-lg">
+        <p className="text-xl">
             Potential Earnings: ${""}
             <span className="font-bold text-green-600">{earnings}</span>
         </p>

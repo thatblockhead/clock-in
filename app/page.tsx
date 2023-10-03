@@ -82,7 +82,7 @@ export default function Home() {
   }, [isActive, sessions, pausedTime]);
 
   return (
-    <main className="flex min-h-screen flex-col items-center p-24">
+    <main className="flex flex-col items-center p-24">
       <div className="min-h-[64px] flex items-center m-2">
         <JobTitleSelector selectedJob={selectedJob} setSelectedJob={setSelectedJob} />
       </div>

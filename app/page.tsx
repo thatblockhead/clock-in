@@ -82,7 +82,7 @@ export default function Home() {
   }, [isActive, sessions, pausedTime]);
 
   return (
-    <main className="flex flex-col items-center p-24">
+    <main className="flex flex-col items-center p-12">
       <div className="min-h-[64px] flex items-center m-2">
         <JobTitleSelector selectedJob={selectedJob} setSelectedJob={setSelectedJob} />
       </div>
@@ -100,7 +100,7 @@ export default function Home() {
         {time !== 0 && <ClockOutButton clockOut={clockOut} sessions={sessions} handleUpdateSession={handleUpdateSession} pausedTime={pausedTime} />}
       </div>
       </div>
-      <div className="flex flex-col mt-16 w-1/2 min-w-96">
+      <div className="flex flex-col mt-16 w-1/2 min-w-[384px]">
         <SessionHistoryDisplay sessions={sessions} />
       </div>
     </main>

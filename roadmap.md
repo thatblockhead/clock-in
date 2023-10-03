@@ -42,9 +42,9 @@
 
 ### Milestone 8: Styling and UI Polish
 - [ ] Style Timer and Statistics components
-  - [ ] Hide job title search until button pushed
-  - [ ] Style button
-  - [ ] Style job title, wage
+  - [x] Hide job title search until button pushed
+  - [x] Style button
+  - [x] Style job title, wage
   - [ ] Style timer display
   - [ ] Style timer buttons
   - [ ] Conditionally render timer buttons

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Job } from "@/models";
+import { AiOutlineEdit } from 'react-icons/ai'
 
 const wageData = import("../national_median_hourly_wages.json");
 
@@ -57,16 +58,22 @@ export default function JobTitleSelector({ selectedJob, setSelectedJob }: JobTit
         <div>
             {selectedJob ? (
                 <div>
-                    <span>{`Selected Job: ${selectedJob.title}`}</span>
-                    <span>{`Median Hourly Wage: ${isNaN(Number(selectedJob.wage)) ? "Not available" : selectedJob.wage}`}</span>
-                    <button onClick={() => setSelectedJob(null)}>Change</button>
+                    <span className="mr-4">{`Selected Job: ${selectedJob.title}`}</span>
+                    <span className="mr-4">{`Hourly Wage: $${isNaN(Number(selectedJob.wage)) ? "Not available" : selectedJob.wage}`}</span>
+                    <button
+                        onClick={() => setSelectedJob(null)}
+                        className="hover:bg-gray-700 text-white font-bold p-1 rounded"
+                        title="Change Selected Job"
+                    >
+                        <AiOutlineEdit />
+                    </button>
                 </div>
             ) : (
                 <>
                     {!showSearch && (
-                        <button 
+                        <button
                             onClick={() => setShowSearch(true)}
-                            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            className="bg-teal-800 hover:bg-teal-900 text-white font-bold py-2 px-4 rounded"
                         >
                             Select a job title
                         </button>
@@ -75,16 +82,16 @@ export default function JobTitleSelector({ selectedJob, setSelectedJob }: JobTit
                         <>
                             <label htmlFor="jobSearch">Search Job Title: </label>
                             <input
-                                className="bg-black text-white border border-gray-500"
+                                className="bg-black mx-2 text-white border border-gray-500 rounded"
                                 type="text"
                                 value={query}
                                 onChange={handleQueryChange}
                                 placeholder="Search job titles..."
                             />
                             {suggestions.length > 0 && (
-                                <div>
+                                <div className="absolute bg-black border border-gray-300 z-10 overflow-y-auto max-h-[200px]">
                                     {suggestions.map((job, index) => (
-                                        <div key={index} onClick={() => handleJobSelect(job)}>
+                                        <div key={index} onClick={() => handleJobSelect(job)} className="cursor-pointer hover:bg-gray-500">
                                             {job.OCC_TITLE}
                                         </div>
                                     ))}
@@ -109,7 +116,7 @@ export default function JobTitleSelector({ selectedJob, setSelectedJob }: JobTit
                                             No wage data found. Please enter manually.
                                         </div>
                                     )}
-                                    <button onClick={handleSave}>Save</button>
+                                    <button onClick={handleSave} className="bg-teal-800 hover:bg-teal-700 text-white font-bold mx-1 py-1 px-2 rounded">Save</button>
                                 </div>
                             )}
                         </>
@@ -117,5 +124,5 @@ export default function JobTitleSelector({ selectedJob, setSelectedJob }: JobTit
                 </>
             )}
         </div>
-    );    
+    );
 };

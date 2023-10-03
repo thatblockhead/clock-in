@@ -83,9 +83,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
-      <JobTitleSelector selectedJob={selectedJob} setSelectedJob={setSelectedJob} />
       <TimerDisplay time={time} />
-      {selectedJob && <EarningsDisplay wage={selectedJob.wage} time={time} />}
       <div>
         <PauseButton pause={pause} />
         <UnpauseButton unpause={unpause} />
@@ -93,6 +91,12 @@ export default function Home() {
       <div>
         <ClockInButton clockIn={clockIn} handleNewSession={handleNewSession} />
         <ClockOutButton clockOut={clockOut} sessions={sessions} handleUpdateSession={handleUpdateSession} pausedTime={pausedTime} />
+      </div>
+      <div className="min-h-[24px] m-2">
+      {selectedJob ? <EarningsDisplay wage={selectedJob.wage} time={time}/> : "" }
+      </div>
+      <div className="min-h-[64px] flex items-center m-4">
+      <JobTitleSelector selectedJob={selectedJob} setSelectedJob={setSelectedJob} />
       </div>
       <div>
         <SessionHistoryDisplay sessions={sessions} />

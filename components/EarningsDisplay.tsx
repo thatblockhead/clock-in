@@ -5,7 +5,12 @@ type EarningsDisplayProps = {
 
 export default function EarningsDisplay({ wage, time }: EarningsDisplayProps) {
     const hourlyWage = typeof wage === 'number' ? wage : 0;
-    const earningsMessage = `Potential Earnings: $${((time / 3600) * hourlyWage).toFixed(2)}`;
+    const earnings = ((time / 3600) * hourlyWage).toFixed(2);
 
-    return <p>{earningsMessage}</p>;
+    return (
+        <p className="text-lg">
+            Potential Earnings: ${""}
+            <span className="font-bold text-green-600">{earnings}</span>
+        </p>
+    );
 }

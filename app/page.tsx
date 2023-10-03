@@ -83,9 +83,10 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
-      <div className="min-h-[64px] flex items-center m-4">
+      <div className="min-h-[64px] flex items-center m-2">
         <JobTitleSelector selectedJob={selectedJob} setSelectedJob={setSelectedJob} />
       </div>
+      <div className="flex flex-col px-24 py-6 items-center border rounded-md">
       <div className="min-h-[24px] m-2">
         {selectedJob ? <EarningsDisplay wage={selectedJob.wage} time={time} /> : ""}
       </div>
@@ -98,7 +99,8 @@ export default function Home() {
         {!isActive && pauseStart === null && <ClockInButton clockIn={clockIn} handleNewSession={handleNewSession} />}
         {time !== 0 && <ClockOutButton clockOut={clockOut} sessions={sessions} handleUpdateSession={handleUpdateSession} pausedTime={pausedTime} />}
       </div>
-      <div>
+      </div>
+      <div className="flex flex-col mt-16 w-1/2 min-w-96">
         <SessionHistoryDisplay sessions={sessions} />
       </div>
     </main>

@@ -10,10 +10,12 @@ export default function SessionHistoryDisplay({ sessions }: { sessions: Session[
 
     return (
         <div>
-            <h2>Session History</h2>
-            <p>Total Time Across All Sessions: {formatTime(totalTime)}</p>
-            <p>Total Earnings Across All Sessions: ${totalEarnings.toFixed(2)}</p>
-            <table className="table-auto border-collapse border border-gray-800">
+            <h2 className="text-lg mt-1 mb-3 text-center border-b">Session History</h2>
+            <div className="flex text-lg mb-2 justify-between">
+                <p>Total Time Across All Sessions: {formatTime(totalTime)}</p>
+                <p>Total Earnings Across All Sessions: ${totalEarnings.toFixed(2)}</p>
+            </div>
+            <table className="table-auto w-full border-collapse border border-gray-800">
                 <thead>
                     <tr>
                         <th>Session Date</th>

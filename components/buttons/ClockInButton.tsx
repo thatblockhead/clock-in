@@ -13,7 +13,12 @@ const ClockInButton: React.FC<ClockInButtonProps> = ({ clockIn, handleNewSession
   };
 
   return (
-    <button onClick={handleClick}>Clock In</button>
+    <button 
+      onClick={handleClick}
+      className='bg-gray-700 p-2 rounded'
+    >
+      Clock In
+    </button>
   );
 };
 

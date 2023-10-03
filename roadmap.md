@@ -46,8 +46,8 @@
   - [x] Style button
   - [x] Style job title, wage
   - [x] Style timer display
-  - [ ] Style timer buttons
-  - [ ] Conditionally render timer buttons
+  - [x] Style timer buttons
+  - [x] Conditionally render timer buttons
   - [ ] Style session history header
   - [ ] Add header, footer
 - [ ] Add responsiveness to the layout

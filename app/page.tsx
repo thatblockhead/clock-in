@@ -83,20 +83,20 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
-      <TimerDisplay time={time} />
-      <div className="min-h-[24px] m-1">
-        {(isActive && pauseStart === null) && <PauseButton pause={pause} />}
-        {(!isActive && pauseStart !== null) && <UnpauseButton unpause={unpause} />}
-      </div>
-      <div>
-        {!isActive && pauseStart === null && <ClockInButton clockIn={clockIn} handleNewSession={handleNewSession} />}
-        {time !== 0 && <ClockOutButton clockOut={clockOut} sessions={sessions} handleUpdateSession={handleUpdateSession} pausedTime={pausedTime} />}
+      <div className="min-h-[64px] flex items-center m-4">
+        <JobTitleSelector selectedJob={selectedJob} setSelectedJob={setSelectedJob} />
       </div>
       <div className="min-h-[24px] m-2">
         {selectedJob ? <EarningsDisplay wage={selectedJob.wage} time={time} /> : ""}
       </div>
-      <div className="min-h-[64px] flex items-center m-4">
-        <JobTitleSelector selectedJob={selectedJob} setSelectedJob={setSelectedJob} />
+      <TimerDisplay time={time} />
+      <div className="min-h-[24px] m-2">
+        {(isActive && pauseStart === null) && <PauseButton pause={pause} />}
+        {(!isActive && pauseStart !== null) && <UnpauseButton unpause={unpause} />}
+      </div>
+      <div className="m-2">
+        {!isActive && pauseStart === null && <ClockInButton clockIn={clockIn} handleNewSession={handleNewSession} />}
+        {time !== 0 && <ClockOutButton clockOut={clockOut} sessions={sessions} handleUpdateSession={handleUpdateSession} pausedTime={pausedTime} />}
       </div>
       <div>
         <SessionHistoryDisplay sessions={sessions} />

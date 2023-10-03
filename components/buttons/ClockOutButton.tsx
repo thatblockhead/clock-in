@@ -18,7 +18,12 @@ const ClockOutButton: React.FC<ClockOutButtonProps> = ({ clockOut, sessions, han
   };
   
   return (
-    <button onClick={handleClick}>Clock Out</button>
+    <button 
+      onClick={handleClick}
+      className='bg-gray-700 p-2 rounded'
+    >
+      Clock Out
+    </button>
   );
 };
 

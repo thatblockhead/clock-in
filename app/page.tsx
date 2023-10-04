@@ -100,7 +100,7 @@ export default function Home() {
         {time !== 0 && <ClockOutButton clockOut={clockOut} sessions={sessions} handleUpdateSession={handleUpdateSession} pausedTime={pausedTime} />}
       </div>
       </div>
-      <div className="flex flex-col mt-16 w-1/2 min-w-[384px]">
+      <div className="flex flex-col mt-16 p-2 w-screen max-w-5xl min-w-[384px]">
         <SessionHistoryDisplay sessions={sessions} />
       </div>
     </main>
